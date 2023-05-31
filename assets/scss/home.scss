@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    height: 3000px;
+    background-color: #2a2a2a;
+}
+
+
+
+header {
+    #navbars {
+        width: 100%;
+        height: 120px;
+        position: absolute;
+        z-index: 1;
+
+
+
+
+        .navbar {
+            width: 100%;
+            height: 120px;
+
+
+
+            ul {
+                gap: 14%;
+
+                li {
+                    list-style: none;
+                    float: left;
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+
+
+
+                        span {
+
+                            color: #ca8f65;
+
+
+
+
+                        }
+
+                        &:hover span {
+                            color: white;
+                        }
+
+                    }
+                }
+            }
+
+        }
+
+
+        .header-logo {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+
+        }
+
+        .header-search {
+            width: 100%;
+            height: 100%;
+
+
+            input {
+                width: 86%;
+                height: 28%;
+                border: none;
+
+
+
+
+
+
+
+            }
+
+
+            i {
+                font-size: 138%;
+                color: #ca8f65;
+
+            }
+
+
+
+
+
+
+
+        }
+
+        .header-icons {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+
+
+
+            a {
+                text-decoration: none;
+
+
+
+
+
+
+                i {
+                    font-size: 138%;
+                    color: #ca8f65;
+                    padding-top: 22%;
+                    margin: 4%;
+
+
+
+
+
+
+
+
+
+                }
+
+
+                span {
+
+                    position: relative;
+                    right: 7%;
+                    bottom: 18px;
+                    display: inline-block;
+                    width: 18px;
+                    line-height: 18px;
+                    text-align: center;
+                    font-size: 11px;
+                    background-color: #ca8f65;
+                    color: white;
+                    border-radius: 100%;
+
+                    &:last-child {
+                        background-color: beige;
+                        font-size: 110%;
+                        width: 0;
+                        height: 0;
+                        margin-right: 10%;
+                        bottom: 0px;
+                        color: #ca8f65;
+
+
+                    }
+
+
+
+                }
+
+
+
+            }
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+    }
+}
+
+main {
+    #background-images {
+
+
+        .background-image {
+            position: relative;
+
+            img {
+                width: 100%;
+
+                &:first-child {
+                    position: absolute;
+
+
+
+                }
+
+                &:nth-child(2) {
+
+                    position: absolute;
+
+
+
+                }
+
+                &:last-child {
+                    position: absolute;
+
+
+
+
+                }
+
+
+
+            }
+
+        }
+
+
+
+    }
+
+    #sliders {
+
+        .slider {
+            width: 100%;
+            height: 100%;
+
+            .swiper-slide {
+
+                h2 {
+                    color: white;
+                    font-size: 90px;
+                    position: relative;
+                    top: 156px;
+
+
+                }
+
+                h3 {
+                    color: #ca8f65;
+                    position: relative;
+                    top: 200px;
+                    left: 6%
+                }
+
+                h4 {
+                    color: white;
+                    position: relative;
+                    top: 160px;
+
+                }
+
+
+
+                span {
+                    color: whitesmoke;
+                    position: relative;
+                    top: 180px;
+
+                }
+
+
+
+
+
+
+
+
+
+
+
+                &:first-child {
+                    img {
+                        width: 45%;
+                        height: 10%;
+                        position: relative;
+                        float: right;
+                        bottom: 20px;
+                        right: 3%;
+                    }
+
+
+
+                }
+
+
+
+
+                &:nth-child(2) {
+                    img {
+                        width: 43%;
+                        height: 10%;
+                        position: relative;
+                        float: right;
+                        bottom: 10px;
+                        right: 8%;
+                    }
+
+
+                }
+
+                &:nth-child(3) {
+                    img {
+                        width: 40%;
+                        height: 10%;
+                        position: relative;
+                        float: right;
+                        right: 6%;
+                    }
+
+                }
+
+                &:last-child {
+                    img {
+
+                        width: 30%;
+                        height: 10%;
+                        position: relative;
+                        float: right;
+                        bottom: 50px;
+                        right: 7%;
+
+                    }
+
+                }
+
+            }
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+    }
+
+    #main-traditions {
+        .main-tradition {
+            width: 100%;
+            height: 700px;
+
+
+
+
+            .main-lineback {
+
+                img {
+                    position: absolute;
+
+
+                }
+            }
+
+
+            .main-logo {
+                text-align: center;
+                width: 100%;
+                height: 32%;
+
+                img {
+                    width: 3%;
+                    margin-top: 5%;
+
+
+                }
+
+                h1 {
+                    color: #ca8f65;
+
+                }
+
+
+
+
+            }
+
+            .main-line{
+                width: 100%;
+                height: 10%;
+                text-align: center;
+
+                img{
+                    margin-top: 2%;
+                }
+          
+            }
+
+            .tradition-description{
+                width: 100%;
+                height: 12%;
+                text-align: center;
+
+                h5{
+                    color: white;
+                   
+                }
+            }
+
+            .main-signature{
+                width: 100%;
+                height: 12%;
+                text-align: center;
+            }
+
+
+
+
+
+
+
+        }
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

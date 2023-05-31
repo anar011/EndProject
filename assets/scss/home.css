@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 3000px;
+  background-color: #2a2a2a;
+}
+
+header #navbars {
+  width: 100%;
+  height: 120px;
+  position: absolute;
+  z-index: 1;
+}
+header #navbars .navbar {
+  width: 100%;
+  height: 120px;
+}
+header #navbars .navbar ul {
+  gap: 14%;
+}
+header #navbars .navbar ul li {
+  list-style: none;
+  float: left;
+}
+header #navbars .navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+header #navbars .navbar ul li a span {
+  color: #ca8f65;
+}
+header #navbars .navbar ul li a:hover span {
+  color: white;
+}
+header #navbars .header-logo {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+header #navbars .header-search {
+  width: 100%;
+  height: 100%;
+}
+header #navbars .header-search input {
+  width: 86%;
+  height: 28%;
+  border: none;
+}
+header #navbars .header-search i {
+  font-size: 138%;
+  color: #ca8f65;
+}
+header #navbars .header-icons {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+header #navbars .header-icons a {
+  text-decoration: none;
+}
+header #navbars .header-icons a i {
+  font-size: 138%;
+  color: #ca8f65;
+  padding-top: 22%;
+  margin: 4%;
+}
+header #navbars .header-icons a span {
+  position: relative;
+  right: 7%;
+  bottom: 18px;
+  display: inline-block;
+  width: 18px;
+  line-height: 18px;
+  text-align: center;
+  font-size: 11px;
+  background-color: #ca8f65;
+  color: white;
+  border-radius: 100%;
+}
+header #navbars .header-icons a span:last-child {
+  background-color: beige;
+  font-size: 110%;
+  width: 0;
+  height: 0;
+  margin-right: 10%;
+  bottom: 0px;
+  color: #ca8f65;
+}
+
+main #background-images .background-image {
+  position: relative;
+}
+main #background-images .background-image img {
+  width: 100%;
+}
+main #background-images .background-image img:first-child {
+  position: absolute;
+}
+main #background-images .background-image img:nth-child(2) {
+  position: absolute;
+}
+main #background-images .background-image img:last-child {
+  position: absolute;
+}
+main #sliders .slider {
+  width: 100%;
+  height: 100%;
+}
+main #sliders .slider .swiper-slide h2 {
+  color: white;
+  font-size: 90px;
+  position: relative;
+  top: 156px;
+}
+main #sliders .slider .swiper-slide h3 {
+  color: #ca8f65;
+  position: relative;
+  top: 200px;
+  left: 6%;
+}
+main #sliders .slider .swiper-slide h4 {
+  color: white;
+  position: relative;
+  top: 160px;
+}
+main #sliders .slider .swiper-slide span {
+  color: whitesmoke;
+  position: relative;
+  top: 180px;
+}
+main #sliders .slider .swiper-slide:first-child img {
+  width: 45%;
+  height: 10%;
+  position: relative;
+  float: right;
+  bottom: 20px;
+  right: 3%;
+}
+main #sliders .slider .swiper-slide:nth-child(2) img {
+  width: 43%;
+  height: 10%;
+  position: relative;
+  float: right;
+  bottom: 10px;
+  right: 8%;
+}
+main #sliders .slider .swiper-slide:nth-child(3) img {
+  width: 40%;
+  height: 10%;
+  position: relative;
+  float: right;
+  right: 6%;
+}
+main #sliders .slider .swiper-slide:last-child img {
+  width: 30%;
+  height: 10%;
+  position: relative;
+  float: right;
+  bottom: 50px;
+  right: 7%;
+}
+main #main-traditions .main-tradition {
+  width: 100%;
+  height: 700px;
+}
+main #main-traditions .main-tradition .main-lineback img {
+  position: absolute;
+}
+main #main-traditions .main-tradition .main-logo {
+  text-align: center;
+  width: 100%;
+  height: 32%;
+}
+main #main-traditions .main-tradition .main-logo img {
+  width: 3%;
+  margin-top: 5%;
+}
+main #main-traditions .main-tradition .main-logo h1 {
+  color: #ca8f65;
+}
+main #main-traditions .main-tradition .main-line {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+}
+main #main-traditions .main-tradition .main-line img {
+  margin-top: 2%;
+}
+main #main-traditions .main-tradition .tradition-description {
+  width: 100%;
+  height: 12%;
+  text-align: center;
+}
+main #main-traditions .main-tradition .tradition-description h5 {
+  color: white;
+}
+main #main-traditions .main-tradition .main-signature {
+  width: 100%;
+  height: 12%;
+  text-align: center;
+}/*# sourceMappingURL=home.css.map */
