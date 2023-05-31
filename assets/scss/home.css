@@ -166,10 +166,11 @@ main #sliders .slider .swiper-slide:last-child img {
 }
 main #main-traditions .main-tradition {
   width: 100%;
-  height: 700px;
+  height: 800px;
 }
 main #main-traditions .main-tradition .main-lineback img {
   position: absolute;
+  width: 100%;
 }
 main #main-traditions .main-tradition .main-logo {
   text-align: center;
@@ -203,4 +204,73 @@ main #main-traditions .main-tradition .main-signature {
   width: 100%;
   height: 12%;
   text-align: center;
+}
+main #main-traditions .main-tradition .main-lines {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  padding-top: 5%;
+}
+main #special-collections .special-collection {
+  width: 100%;
+  height: 630px;
+  padding: 25px 28px 7px;
+  border: 1px solid #CA8F65;
+}
+main #special-collections .special-collection .special-prices {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+main #special-collections .special-collection .special-prices .special-price {
+  width: 100%;
+  height: 56%;
+  padding-top: 10%;
+}
+main #special-collections .special-collection .special-prices .special-price h1 {
+  color: #ca8f65;
+}
+main #special-collections .special-collection .special-prices .special-price h4 {
+  color: rgb(240, 235, 235);
+}
+main #special-collections .special-collection .special-prices .zeros {
+  width: 100%;
+  height: 11%;
+  gap: 20%;
+}
+main #special-collections .special-collection .special-prices .zeros h1 {
+  color: #ca8f65;
+}
+main #special-collections .special-collection .special-prices .days-hours {
+  width: 100%;
+  height: 10%;
+  gap: 19%;
+}
+main #special-collections .special-collection .special-prices .days-hours h5 {
+  color: rgb(206, 206, 206);
+}
+main #special-collections .special-collection .special-prices .button-buy {
+  width: 100%;
+  height: 10%;
+}
+main #special-collections .special-collection .special-prices .button-buy button {
+  background-color: #ca8f65;
+  width: 25%;
+  height: 72%;
+  border: none;
+}
+main #special-collections .special-collection .special-prices .button-buy button:hover {
+  background-color: rgb(232, 232, 232);
+}
+main #special-collections .special-collection .special-prices .button-buy button a {
+  text-decoration: none;
+  color: rgb(57, 54, 54);
+}
+main #special-collections .special-collection .whiskey-men {
+  text-align: end;
+  width: 100%;
+}
+main #special-collections .special-collection .whiskey-men img {
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=home.css.map */

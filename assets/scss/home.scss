@@ -354,7 +354,7 @@ main {
     #main-traditions {
         .main-tradition {
             width: 100%;
-            height: 700px;
+            height: 800px;
 
 
 
@@ -363,6 +363,7 @@ main {
 
                 img {
                     position: absolute;
+                    width: 100%;
 
 
                 }
@@ -391,33 +392,46 @@ main {
 
             }
 
-            .main-line{
+            .main-line {
                 width: 100%;
                 height: 10%;
                 text-align: center;
 
-                img{
+                img {
                     margin-top: 2%;
                 }
-          
+
             }
 
-            .tradition-description{
+            .tradition-description {
                 width: 100%;
                 height: 12%;
                 text-align: center;
 
-                h5{
+                h5 {
                     color: white;
-                   
+
                 }
             }
 
-            .main-signature{
+            .main-signature {
                 width: 100%;
                 height: 12%;
                 text-align: center;
+
             }
+
+
+            .main-lines {
+                width: 100%;
+                height: 20%;
+                text-align: center;
+                padding-top: 5%;
+            }
+
+
+
+
 
 
 
@@ -429,6 +443,106 @@ main {
 
 
 
+
+    }
+
+
+    #special-collections {
+
+        .special-collection {
+            width: 100%;
+            height: 630px;
+            padding: 25px 28px 7px;
+
+            border: 1px solid #CA8F65;
+
+            .special-prices {
+                width: 100%;
+                height: 100%;
+               
+                text-align: center;
+
+                .special-price {
+                    width: 100%;
+                    height: 56%;
+                    
+                    padding-top: 10%;
+
+                    h1 {
+                        color: #ca8f65;
+                    }
+
+                    h4 {
+                        color: rgb(240, 235, 235);
+                    }
+
+                }
+
+                .zeros {
+                    width: 100%;
+                    height: 11%;
+                    
+                    gap: 20%;
+
+                    h1 {
+                        color: #ca8f65;
+                    }
+
+
+                }
+
+                .days-hours {
+                    width: 100%;
+                    height: 10%;
+                   
+                    gap: 19%;
+
+                    h5{
+                        color: rgb(206, 206, 206);
+                    }
+                }
+
+                .button-buy {
+                    width: 100%;
+                    height: 10%;
+                  
+
+                    button {
+                        background-color: #ca8f65;
+                        width: 25%;
+                        height: 72%;
+                        border: none;
+                        &:hover{
+                            background-color: rgb(232, 232, 232);
+                        }
+
+                        a{
+                            text-decoration: none;
+                            color: rgb(57, 54, 54);
+
+                          
+                        }
+                    }
+                }
+
+
+            }
+
+            .whiskey-men {
+                text-align: end;
+                width: 100%;
+               
+
+                img {
+                    width: 100%;
+                    height: 100%;
+
+                }
+
+
+            }
+
+        }
 
     }
 
