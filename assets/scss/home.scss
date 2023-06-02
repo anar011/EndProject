@@ -7,7 +7,7 @@
 
 body {
     width: 100%;
-    height: 6000px;
+   
     background-color: #343333;
 }
 
@@ -19,6 +19,7 @@ header {
         height: 120px;
         position: absolute;
         z-index: 5;
+        
 
 
 
@@ -91,21 +92,21 @@ header {
                 width: 86%;
                 height: 28%;
                 border: none;
-
-
-
-
-
-
-
             }
 
+            a {
 
-            i {
-                font-size: 138%;
-                color: #ca8f65;
+                i {
+                    font-size: 138%;
+                    color: #ca8f65;
+                    position: relative;
+                    float: right;
+                    top: 44%;
 
+
+                }
             }
+
 
 
 
@@ -553,10 +554,10 @@ main {
     }
 
 
-    #background-img {
+    #background-img1 {
         .back-img {
             width: 100%;
-            height: 40px;
+            height: 28px;
             background-color: #343333;
 
             img {
@@ -569,13 +570,296 @@ main {
     #main-products {
         .main-product {
             width: 100%;
-            height: 1300px;
-            background-color: #ca8f65;
+            height: 1385px;
+            background-color: #2a2a2a;
+
+
+            .product-priviews {
+                width: 62%;
+                height: 74%;
+                background-color: #303030;
+                position: absolute;
+                right: 18%;
+                margin-top: 20%;
+                
+
+
+
+                .priviews-img {
+                    width: 100%;
+                    height: 100%;
+
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+
+
+
+
+
+                .priviews-informs {
+                    width: 100%;
+                    height: 100%;
+
+
+                    .whiskey-name {
+                        width: 100%;
+                        height: 14%;
+
+
+                        h1 {
+                            color: #ca8f65;
+                            text-align: left;
+                        }
+
+
+                        span {
+
+                            position: relative;
+                            left: 38%;
+                            transition: all 0.3s ease-in-out;
+
+                            i {
+                                color: #f9eeee;
+                                cursor: pointer;
+
+                            }
+                        }
+
+                    }
+
+                    .priviewWhiskey-price {
+                        width: 100%;
+                        height: 10%;
+
+
+                        h4 {
+                            color: #ca8f65;
+                        }
+
+
+
+                    }
+
+                    .whiskey-info {
+                        width: 89%;
+                        height: 20%;
+
+
+                        span {
+                            color: #8e8e8e;
+                        }
+                    }
+
+                    .whiskey-capacity {
+                        width: 100%;
+                        height: 10%;
+
+
+                        span {
+                            color: #f9eeee;
+                            font-size: 22px;
+                        }
+
+
+                        button {
+
+                            width: 10%;
+                            height: 50%;
+                            border: none;
+                            background-color: #303030;
+
+
+                            &:hover {
+                                background-color: #8e8e8e;
+
+                            }
+
+
+                            a {
+                                text-decoration: none;
+                                color: #6c6969;
+
+
+                            }
+
+                        }
+
+
+
+
+                    }
+
+
+                    .whiskey-price {
+                        width: 100%;
+                        height: 10%;
+
+
+
+                        span {
+                            font-size: 25px;
+                            font-weight: 650;
+                            color: #ca8f65;
+
+                            &:first-child {}
+
+                            &:nth-child(2) {
+                                display: none;
+
+                            }
+
+                            &:last-child {
+                                display: none;
+
+                            }
+                        }
+
+
+                    }
+
+                    .whiskey-button-cart {
+                        width: 100%;
+                        height: 8%;
+
+
+                        .whiskey-buttons {
+                            width: 100%;
+                            height: 100%;
+                            border: 1px;
+
+
+
+                            button {
+                                width: 30%;
+                                height: 100%;
+                                background-color: #303030;
+                                border: none;
+
+                                &:hover {
+                                    background-color: #444444;
+                                }
+
+                                a {
+
+                                    i {
+                                        color: white;
+                                    }
+                                }
+
+                            }
+
+                            input {
+                                width: 30%;
+                                height: 100%;
+                                border: none;
+                                background-color: #303030;
+                            }
+
+
+                        }
+
+
+                        .whiskey-addcart {
+                            width: 100%;
+                            height: 100%;
+                            background-color: #ca8f65;
+
+
+                            button {
+                                width: 100%;
+                                height: 100%;
+                                border: none;
+                                background-color: #ca8f65;
+
+                                &:hover {
+                                    background-color: #ebebeb;
+                                    transition: 1s;
+                                }
+
+                                a {
+                                    text-decoration: none;
+                                    color: black;
+
+                                }
+                            }
+
+
+
+                        }
+
+                        .whiskey-iconheart {
+                            width: 100%;
+                            height: 60%;
+
+                            margin-top: 6%;
+                            margin-left: 8%;
+
+                            a {
+                                text-decoration: none;
+
+                                i {
+                                    color: #ca8f65;
+                                    font-size: 25px;
+
+                                    &:hover {
+                                        color: #f9eeee;
+                                    }
+
+
+
+                                }
+                            }
+                        }
+
+
+
+                    }
+
+
+
+                    .whiskey-categories {
+                        width: 100%;
+                        height: 10%;
+
+
+                        span {
+                            color: #f1e9e4;
+                        }
+
+                        a {
+                            text-decoration: none;
+
+                            span {
+                                color: #ca8f65;
+
+                                &:hover {
+                                    color: white;
+                                }
+                            }
+                        }
+
+                    }
+
+
+
+
+
+
+
+                }
+
+
+
+            }
 
             .recommented-logo {
                 width: 100%;
                 height: 130px;
-                background-color: #343333;
                 text-align: center;
 
                 img {
@@ -589,7 +873,6 @@ main {
             .recommented-products {
                 width: 100%;
                 height: 120px;
-                background-color: aqua;
                 text-align: center;
 
                 h1 {
@@ -603,20 +886,18 @@ main {
             .recommented-line {
                 width: 100%;
                 height: 70px;
-                background-color: bisque;
                 text-align: center;
             }
 
             .products-whiskeys {
                 width: 100%;
-                height: 800px;
-                background-color: cornsilk;
+                height: 1000px;
 
 
                 .whiskeys {
                     width: 100%;
                     height: 500px;
-                    background-color: chartreuse;
+
 
                     &:hover {
                         .whiskey-icons {
@@ -642,13 +923,13 @@ main {
 
 
                         i {
-                            font-size: 24px;
+                            font-size: 20px;
                             color: white;
                             display: none;
 
                             &:hover {
                                 color: #ca8f65;
-                                transition: 1s;
+                                transition: 0.2s;
                             }
                         }
 
@@ -673,7 +954,7 @@ main {
                     .whiskey-name {
                         width: 100%;
                         height: 20%;
-                        background-color: darkcyan;
+
                         text-align: center;
 
                         a {
@@ -689,250 +970,7 @@ main {
 
                     }
 
-                    .product-priviews {
-                        width: 62%;
-                        height: 74%;
-                        background-color:  #8e8e8e;
-                        position: absolute;
-                        right: 18%;
 
-                        .priviews-img{
-                            width: 100%;
-                            height: 100%;
-                            
-                             img{
-                                width: 100%;
-                                height: 100%;
-                             }
-                        }
-
-
-
-
-
-
-                        .priviews-informs {
-                            width: 100%;
-                            height: 100%;
-                           
-
-                            .whiskey-name {
-                                width: 100%;
-                                height: 14%;
-                             
-
-                                h1 {
-                                    color: #ca8f65;
-                                    text-align: left;
-                                }
-                            }
-
-                            .priviewWhiskey-price {
-                                width: 100%;
-                                height: 10%;
-                                
-
-                                h4 {
-                                    color: #ca8f65;
-                                }
-
-
-
-                            }
-
-                            .whiskey-info {
-                                width: 89%;
-                                height: 20%;
-                              
-
-                                span {
-                                    color: #8e8e8e;
-                                }
-                            }
-
-                            .whiskey-capacity {
-                                width: 100%;
-                                height: 10%;
-                               
-
-                                span {
-                                    color: #f9eeee;
-                                    font-size: 22px;
-                                }
-
-
-                                button {
-
-                                    width: 10%;
-                                    height: 50%;
-                                    border: none;
-
-
-                                    &:hover{
-                                        border: #f1e9e4;
-
-                                    }
-
-
-                                    a {
-                                        text-decoration: none;
-                                        color: #8e8e8e;
-
-                                    }
-
-                                }
-
-
-
-
-                            }
-
-
-                            .whiskey-price {
-                                width: 100%;
-                                height: 10%;
-                               
-                                
-
-                                span {
-                                    font-size: 30px;
-                                    font-weight: 650;
-                                    color: #ca8f65;
-
-                                    &:first-child{
-                                        display: none;
-                                    }
-
-                                    &:nth-child(2){
-                                        display: none;
-
-                                    }
-
-                                    &:last-child{
-                                        display: none;
-
-                                    }
-                                }
-
-
-                            }
-
-                            .whiskey-button-cart{
-                                width: 100%;
-                                height: 8%;
-                          
-
-                                .whiskey-buttons{
-                                    width: 100%;
-                                    height: 100%;
-                                  
-                                    
-
-                                    button{
-                                        width: 30%;
-                                        height:100%;
-                                        
-                                        &:hover{
-                                            background-color: #8e8e8e;
-                                        }
-                                        
-                                       a{
-
-                                        i{
-                                            color: white;
-                                        }
-                                       }
-                                      
-                                    }
-
-                                    input{
-                                        width: 30%;
-                                        height: 100%;
-                                        border: none;
-                                    }
-
-
-                                }
-
-
-                                .whiskey-addcart{
-                                    width: 100%;
-                                    height: 100%;
-                                    background-color: #ca8f65;
-
-
-                                    button{
-                                        width: 100%;
-                                        height: 100%;
-                                        border: none;
-                                        background-color: #ca8f65;
-                                        &:hover{
-                                            background-color: #f5f0ec;
-                                        }
-                                        a{
-                                            text-decoration: none;
-                                            color: black;
-
-                                        }
-                                    }
-
-
-
-                                }
-
-                                .whiskey-iconheart{
-                                    width: 100%;
-                                    height: 60%;
-                                
-                                    margin-top: 6%;
-                                    a{
-                                        text-decoration: none;
-                                        i{
-                                           color: #ca8f65;
-                                           
-
-                                        }
-                                    }
-                                }
-
-
-
-                            }
-
-
-
-                            .whiskey-categories{
-                                width: 100%;
-                                height: 10%;
-                         
-
-                                span{
-                                    color: #f1e9e4;
-                                }
-
-                                a{
-                                    text-decoration: none;
-                                    span{
-                                        color: #ca8f65;
-                                        &:hover{
-                                            color: white;
-                                        }
-                                    }
-                                }
-
-                            }
-
-
-
-                            
-
-                    
-
-                        }
-
-
-
-                    }
 
 
                 }
@@ -951,6 +989,214 @@ main {
         }
     }
 
+    #background-img-two {
+        .back-img {
+            width: 100%;
+            height: 40px;
+            background-color: #343333;
+
+            img {
+                width: 100%;
+            }
+
+        }
+    }
+
+    #blogs-advertising {
+        .advertisings {
+            width: 100%;
+            height: 800px;
+
+
+            .advertising-logo {
+                width: 100%;
+                height: 7%;
+
+                text-align: center;
+
+            }
+
+            .advertising-title {
+                width: 100%;
+                height: 10%;
+
+                text-align: center;
+
+                h2 {
+                    color: #ca8f65;
+                    height: auto;
+                }
+
+
+            }
+
+            .advertising-line {
+                width: 100%;
+                height: 7%;
+
+                text-align: center;
+
+
+                img {
+                    width: auto;
+                    height: auto;
+                }
+
+            }
+
+
+            .advertising-img {
+                width: 100%;
+                height: 37%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .advertising-icons {
+                width: 100%;
+                height: 25%;
+
+
+                .shipping {
+                    width: 100%;
+                    height: auto;
+
+                    text-align: center;
+
+                    img {
+                        &:hover {
+                            margin-top: -10px;
+                            transition: 0.6s;
+                        }
+                    }
+
+
+
+                }
+
+                .shipping-name {
+                    width: 100%;
+                    height: auto;
+                    text-align: center;
+
+
+                    h4 {
+                        &::before {
+                            content: "";
+                            display: block;
+                            width: 0;
+                            margin: 0 auto;
+                            height: 2px;
+                            top: -15px;
+                            position: relative;
+                        }
+
+                        color: white;
+                    }
+                }
+
+                .shipping-description {
+                    width: 100%;
+                    height: auto;
+
+                    text-align: center;
+
+                    span {
+                        color: #8e8e8e;
+                        ;
+                    }
+                }
+
+
+            }
+
+
+        }
+    }
+
+    #blogs {
+        .home-blog-logo {
+            width: 100%;
+            height: 70px;
+            text-align: center;
+
+        }
+
+        .home-blog-name {
+            width: 100%;
+            height: 70px;
+
+            text-align: center;
+
+            h1 {
+                color: #ca8f65;
+                height: 100%;
+            }
+        }
+
+        .home-blog-line {
+            width: 100%;
+            height: 50px;
+            text-align: center;
+
+        }
+
+
+
+        .home-blogs {
+            width: 100;
+
+
+            a {
+                text-decoration: none;
+                position: absolute;
+                right: 5%;
+                top: 5%;
+                color: white;
+
+                display: none;
+
+                i {
+                    font-size: 24px;
+                }
+
+                &:hover {
+                    color: #ca8f65;
+                }
+
+
+
+
+            }
+
+
+            span {
+                color: #f1e9e4;
+            }
+
+
+            .home-blog {
+                background-color: #484848
+            }
+
+            .homes-blogs-hover {
+
+                &:hover {
+                    a {
+                        display: block;
+
+                        i {}
+                    }
+                }
+            }
+
+
+
+
+
+        }
 
 
 
@@ -958,6 +1204,149 @@ main {
 
 
 
+    }
+
+    #background-img-three {
+        .back-img {
+            width: 100%;
+            height: 29px;
+
+
+            img {
+                width: 100%;
+            }
+
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+footer {
+    #footer {
+        .footers {
+
+            width: 100%;
+            height: auto;
+            background-color: #2a2a2a;
+
+            .footer-logo {
+                width: 100%;
+                height: 100px;
+                text-align: center;
+
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+
+
+            }
+
+            .footer {
+                .footer-title {
+                    width: 100%;
+                    height: 40px;
+
+
+                    h5 {
+                        color: #ca8f65;
+                        margin-left: 9%;
+                    }
+
+                }
+
+                .footer-description {
+                    width: 100%;
+
+
+
+                    ul {
+
+
+
+
+                        li {
+                            list-style: none;
+
+                            a {
+                                text-decoration: none;
+                                color: #666666;
+
+                                &:hover {
+                                    color: #ca8f65;
+                                }
+
+                            }
+                        }
+
+                        .img-pay {}
+                    }
+
+
+
+                }
+
+
+                hr {
+                    color: #ebebeb;
+                }
+
+
+
+            }
+              
+
+
+            
+
+
+
+
+
+
+
+
+
+        }
+
+    }
+
+    #footer-lines{
+        width: 100%;
+        height: 60px;
+        .footer-line{
+            width: 100%;
+            height: 1px;
+            background-color: rgb(104, 104, 104);
+
+
+            .footer-title{
+                span{
+                    color: #8e8e8e;
+                }
+            }
+
+            .footer-titles{
+                text-align: end;
+                span{
+                    color:#8e8e8e;
+                }
+            }
+        }
+    }
 
 
 
