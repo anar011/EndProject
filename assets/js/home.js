@@ -1,59 +1,107 @@
-"use strict"
-//main-slider//
+$(document).ready(function () {
 
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 1,
-  spaceBetween: 30,
-  keyboard: {
-    enabled: true,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
+  "use strict"
+  //main-slider//
 
-
-//Home Search
-
-let search = document.querySelector(".header-search a i")
-search.addEventListener("click",function(e){
-  e.preventDefault()
-  document.querySelector(".header-search input").classList.toggle("d-none")
-});
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    keyboard: {
+      enabled: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
 
 
-//bodyde searchin yox olmasi
+  //Home Search
 
-// document.addEventListener("click", function (e) {
-//   if (!!!e.target.closest(".header-search a i")) {
-//       if (!$(".header-search input").classList.contains("d-none")) {
-//           $(".header-search input").classList.add("d-none")
-//       }
-//   }
-// })
-
-// if (document.body.classList.contains('thatClass')) {
-//   // do some stuff
-// }
+  let search = document.querySelector(".header-search a i")
+  search.addEventListener("click", function (e) {
+    e.preventDefault()
+    document.querySelector(".header-search input").classList.toggle("d-none")
+  });
 
 
-let modal = document.querySelectorAll(".whiskey-icons .fa-square-plus")
-modal.forEach(element => {
-  element.addEventListener("click",function(e){
+  //bodyde searchin yox olmasi
+
+  // document.addEventListener("click", function (e) {
+  //   if (!!!e.target.closest(".header-search a i")) {
+  //       if (!$(".header-search input").classList.contains("d-none")) {
+  //           $(".header-search input").classList.add("d-none")
+  //       }
+  //   }
+  // })
+
+  // if (document.body.classList.contains('thatClass')) {
+  //   // do some stuff
+  // }
+
+
+  ///Modal
+
+  let modal = document.querySelectorAll(".whiskey-icons .fa-square-plus")
+  modal.forEach(element => {
+    element.addEventListener("click", function (e) {
+      e.preventDefault();
+      document.querySelector(".product-priviews").classList.remove("d-none")
+      document.body.style.overflow = "hidden";
+
+    })
+  });
+
+
+  let closee = document.querySelector(".whiskey-name span i")
+  closee.addEventListener("click", function (e) {
     e.preventDefault();
-    document.querySelector(".product-priviews").classList.remove("d-none")
+    document.querySelector(".product-priviews").classList.add("d-none")
+    document.body.style.overflowY = "scroll"
   })
+
+
+  //Modal price
+
+  let price = document.querySelector(".product-priviews .priviews-informs .whiskey-capacity").children[1]
+  price.addEventListener("click", function (e) {
+    e.preventDefault();
+    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[0].classList.toggle("d-none")
+  })
+
+
+
+  let pricee = document.querySelector(".product-priviews .priviews-informs .whiskey-capacity").children[2]
+  pricee.addEventListener("click", function (e) {
+    e.preventDefault();
+    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[1].classList.toggle("d-none")
+  })
+
+  let pricees = document.querySelector(".product-priviews .priviews-informs .whiskey-capacity").children[3]
+  pricees.addEventListener("click", function (e) {
+    e.preventDefault();
+    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[2].classList.toggle("d-none")
+  })
+
+
+
+
+
+
+
+
+
+
+  //login-register
+
+  let login = document.querySelector(".header-icons a .fa-user")
+  login.addEventListener("click", function (e) {
+    e.preventDefault()
+    document.querySelector(".header-login-register").classList.toggle("d-none")
+  });
+
 });
-
-
-let closee = document.querySelector(".whiskey-name span i")
-closee.addEventListener("click",function(e){
-  e.preventDefault();
-  document.querySelector(".product-priviews").classList.add("d-none")
-})
-

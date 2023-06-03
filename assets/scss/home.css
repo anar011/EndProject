@@ -62,6 +62,38 @@ header #navbars .header-icons {
   height: 100%;
   text-align: center;
 }
+header #navbars .header-icons .header-login-register {
+  width: 12%;
+  height: 55%;
+  background-color: rgb(243, 243, 243);
+  position: absolute;
+}
+header #navbars .header-icons .header-login-register .header-login {
+  text-align: left;
+  width: 100%;
+  height: 50%;
+}
+header #navbars .header-icons .header-login-register .header-login:hover {
+  background-color: white;
+}
+header #navbars .header-icons .header-login-register .header-login a {
+  text-decoration: none;
+  color: rgb(26, 26, 26);
+  margin-left: 2%;
+}
+header #navbars .header-icons .header-login-register .header-register {
+  text-align: left;
+  width: 100%;
+  height: 50%;
+}
+header #navbars .header-icons .header-login-register .header-register:hover {
+  background-color: white;
+}
+header #navbars .header-icons .header-login-register .header-register a {
+  text-decoration: none;
+  color: rgb(26, 26, 26);
+  margin-left: 2%;
+}
 header #navbars .header-icons a {
   text-decoration: none;
 }
@@ -369,12 +401,6 @@ main #main-products .main-product .product-priviews .priviews-informs .whiskey-p
   font-size: 25px;
   font-weight: 650;
   color: #ca8f65;
-}
-main #main-products .main-product .product-priviews .priviews-informs .whiskey-price span:nth-child(2) {
-  display: none;
-}
-main #main-products .main-product .product-priviews .priviews-informs .whiskey-price span:last-child {
-  display: none;
 }
 main #main-products .main-product .product-priviews .priviews-informs .whiskey-button-cart {
   width: 100%;
