@@ -67,24 +67,34 @@ $(document).ready(function () {
 
   //Modal price
 
-  let price = document.querySelector(".product-priviews .priviews-informs .whiskey-capacity").children[1]
-  price.addEventListener("click", function (e) {
+  let oneprice = document.querySelector(".product-priviews .priviews-informs .whiskey-capacity").children[1]
+  oneprice.addEventListener("click", function (e) {
     e.preventDefault();
     document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[0].classList.toggle("d-none")
+    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[1].classList.add("d-none")
+    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[2].classList.add("d-none")
+
+
   })
 
 
 
-  let pricee = document.querySelector(".product-priviews .priviews-informs .whiskey-capacity").children[2]
-  pricee.addEventListener("click", function (e) {
+
+
+  let twoprice = document.querySelector(".product-priviews .priviews-informs .whiskey-capacity").children[2]
+  twoprice.addEventListener("click", function (e) {
     e.preventDefault();
     document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[1].classList.toggle("d-none")
+    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[0].classList.add("d-none")
+    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[2].classList.add("d-none")
   })
 
-  let pricees = document.querySelector(".product-priviews .priviews-informs .whiskey-capacity").children[3]
-  pricees.addEventListener("click", function (e) {
+  let threeprice = document.querySelector(".product-priviews .priviews-informs .whiskey-capacity").children[3]
+  threeprice.addEventListener("click", function (e) {
     e.preventDefault();
     document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[2].classList.toggle("d-none")
+    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[0].classList.add("d-none")
+    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[1].classList.add("d-none")
   })
 
 
