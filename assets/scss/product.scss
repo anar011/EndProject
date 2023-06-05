@@ -7,7 +7,7 @@
 
 body {
     width: 100%;
-   
+    height: auto;
     background-color: #343333;
 }
 
@@ -16,20 +16,11 @@ body {
 header {
     #navbars {
         width: 100%;
-        height: auto;
+        height: 120px;
         position: absolute;
         z-index: 5;
 
-        @media screen and (max-width:821px) {}
 
-        @media screen and (max-width:391px) {}
-
-
-
-
-
-
-        
 
 
 
@@ -37,14 +28,6 @@ header {
         .navbar {
             width: 100%;
             height: 120px;
-
-            @media screen and (max-width:821px) {
-
-            }
-
-
-
-            
 
 
 
@@ -99,8 +82,6 @@ header {
             height: 100%;
             text-align: center;
 
-
-
         }
 
         .header-search {
@@ -141,24 +122,25 @@ header {
             height: 100%;
             text-align: center;
 
-            .header-login-register{
+            .header-login-register {
                 width: 12%;
                 height: 55%;
                 background-color: rgb(243, 243, 243);
                 position: absolute;
 
-         
-                
 
-                .header-login{
+
+
+                .header-login {
                     text-align: left;
                     width: 100%;
                     height: 50%;
-                    &:hover{
+
+                    &:hover {
                         background-color: white;
                     }
-                    
-                    a{
+
+                    a {
                         text-decoration: none;
                         color: rgb(26, 26, 26);
                         margin-left: 2%;
@@ -167,18 +149,18 @@ header {
                 }
 
 
-                .header-register{
-                    
+                .header-register {
+
                     text-align: left;
                     width: 100%;
                     height: 50%;
 
-                    &:hover{
+                    &:hover {
                         background-color: white;
                     }
-                    
-                    
-                    a{
+
+
+                    a {
                         text-decoration: none;
                         color: rgb(26, 26, 26);
                         margin-left: 2%;
@@ -261,161 +243,51 @@ header {
 }
 
 main {
-    #background-images {
+    #main-up {
+        background-color: #2a2a2a;
 
+        .main-up-contact-name {
+            width: 100%;
+            height: 65px;
+            text-align: center;
+            margin-top: 15%;
 
-        .background-image {
-            position: relative;
-
-            img {
-                width: 100%;
-
-                &:first-child {
-                    position: absolute;
-
-
-
-                }
-
-                &:nth-child(2) {
-
-                    position: absolute;
-
-
-
-                }
-
-                &:last-child {
-                    position: absolute;
-
-
-
-
-                }
-
-
+            h1 {
+                color: #ca8f65;
 
             }
 
         }
 
-
-
-    }
-
-    #sliders {
-
-        .slider {
+        .main-up-contact-signature {
             width: 100%;
-            height: 100%;
+            height: 65px;
+            text-align: center;
 
-            .swiper-slide {
+        }
 
-                h2 {
+        .main-up-contact-descriptions {
+            width: 100%;
+            height: 120px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            .main-up-contact-description {
+                width: 50%;
+                height: auto;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                p {
                     color: white;
-                    font-size: 90px;
-                    position: relative;
-                    top: 156px;
-
-
-                }
-
-                h3 {
-                    color: #ca8f65;
-                    position: relative;
-                    top: 200px;
-                    left: 6%
-                }
-
-                h4 {
-                    color: white;
-                    position: relative;
-                    top: 160px;
-
-                }
-
-
-
-                span {
-                    color: whitesmoke;
-                    position: relative;
-                    top: 180px;
-
-                }
-
-
-
-
-
-
-
-
-
-
-
-                &:first-child {
-                    img {
-                        width: 45%;
-                        height: 10%;
-                        position: relative;
-                        float: right;
-                        bottom: 20px;
-                        right: 3%;
-                    }
-
-
-
-                }
-
-
-
-
-                &:nth-child(2) {
-                    img {
-                        width: 43%;
-                        height: 10%;
-                        position: relative;
-                        float: right;
-                        bottom: 10px;
-                        right: 8%;
-                    }
-
-
-                }
-
-                &:nth-child(3) {
-                    img {
-                        width: 40%;
-                        height: 10%;
-                        position: relative;
-                        float: right;
-                        right: 6%;
-                    }
-
-                }
-
-                &:last-child {
-                    img {
-
-                        width: 30%;
-                        height: 10%;
-                        position: relative;
-                        float: right;
-                        bottom: 50px;
-                        right: 7%;
-
-                    }
-
                 }
 
             }
-
-
-
-
-
-
-
 
         }
 
@@ -424,224 +296,45 @@ main {
 
 
 
-
     }
 
-    #main-traditions {
-        .main-tradition {
+    #background-img {
+        width: 100;
+
+        img {
             width: 100%;
-            height: 800px;
-
-
-
-
-            .main-lineback {
-
-                img {
-                    position: absolute;
-                    width: 100%;
-
-
-                }
-            }
-
-
-            .main-logo {
-                text-align: center;
-                width: 100%;
-                height: 32%;
-
-                img {
-                    width: 3%;
-                    margin-top: 5%;
-
-
-                }
-
-                h1 {
-                    color: #ca8f65;
-
-                }
-
-
-
-
-            }
-
-            .main-line {
-                width: 100%;
-                height: 10%;
-                text-align: center;
-
-                img {
-                    margin-top: 2%;
-                }
-
-            }
-
-            .tradition-description {
-                width: 100%;
-                height: 12%;
-                text-align: center;
-
-                h5 {
-                    color: white;
-
-                }
-            }
-
-            .main-signature {
-                width: 100%;
-                height: 12%;
-                text-align: center;
-
-            }
-
-
-            .main-lines {
-                width: 100%;
-                height: 20%;
-                text-align: center;
-                padding-top: 5%;
-            }
-
-
-
-
-
-
-
-
-
-
-
         }
-
-
-
 
     }
 
 
-    #special-collections {
 
-        .special-collection {
+    #main-product-showing {
+
+        .main-products-showing {
+
             width: 100%;
-            height: 630px;
-            padding: 25px 28px 7px;
+            height: auto;
 
-            border: 1px solid #CA8F65;
-
-            .special-prices {
-                width: 100%;
-                height: 100%;
-
-                text-align: center;
-
-                .special-price {
-                    width: 100%;
-                    height: 56%;
-
-                    padding-top: 10%;
-
-                    h1 {
-                        color: #ca8f65;
-                    }
-
-                    h4 {
-                        color: rgb(240, 235, 235);
-                    }
-
+            .products-showing-name {
+                p {
+                    color: #a8a8a8;
                 }
-
-                .zeros {
-                    width: 100%;
-                    height: 11%;
-
-                    gap: 20%;
-
-                    h1 {
-                        color: #ca8f65;
-                    }
-
-
-                }
-
-                .days-hours {
-                    width: 100%;
-                    height: 10%;
-
-                    gap: 19%;
-
-                    h5 {
-                        color: rgb(206, 206, 206);
-                    }
-                }
-
-                .button-buy {
-                    width: 100%;
-                    height: 10%;
-
-
-                    button {
-                        background-color: #ca8f65;
-                        width: 25%;
-                        height: 72%;
-                        border: none;
-
-                        &:hover {
-                            background-color: rgb(232, 232, 232);
-                        }
-
-                        a {
-                            text-decoration: none;
-                            color: rgb(57, 54, 54);
-
-
-                        }
-                    }
-                }
-
-
             }
 
-            .whiskey-men {
-                text-align: end;
-                width: 100%;
 
-
-                img {
-                    width: 100%;
-                    height: 100%;
-
-                }
-
-
-            }
 
         }
 
+
     }
 
-
-    #background-img1 {
-        .back-img {
-            width: 100%;
-            height: 28px;
-            background-color: #343333;
-
-            img {
-                width: 100%;
-            }
-
-        }
-    }
 
     #main-products {
         .main-product {
             width: 100%;
             height: auto;
-            background-color: #2a2a2a;
+            background-color: #343333;
 
 
             .product-priviews {
@@ -650,8 +343,8 @@ main {
                 background-color: #303030;
                 position: absolute;
                 right: 18%;
-                margin-top: 20%;
-                
+              
+
 
 
 
@@ -776,7 +469,7 @@ main {
                             font-weight: 650;
                             color: #ca8f65;
 
-                     
+
                         }
 
 
@@ -917,37 +610,6 @@ main {
 
             }
 
-            .recommented-logo {
-                width: 100%;
-                height: 130px;
-                text-align: center;
-
-                img {
-                    position: relative;
-                    top: 23%;
-                }
-
-
-            }
-
-            .recommented-products {
-                width: 100%;
-                height: 120px;
-                text-align: center;
-
-                h1 {
-
-                    font-weight: 600;
-                    color: #ca8f65;
-
-                }
-            }
-
-            .recommented-line {
-                width: 100%;
-                height: 70px;
-                text-align: center;
-            }
 
             .products-whiskeys {
                 width: 100%;
@@ -1041,6 +703,9 @@ main {
             }
 
 
+           
+
+
 
 
 
@@ -1049,226 +714,9 @@ main {
         }
     }
 
-
-    #background-img-two {
+    
+    #background-img-three {
         .back-img {
-            width: 100%;
-            height: 40px;
-            background-color: #343333;
-
-            img {
-                width: 100%;
-            }
-
-        }
-    }
-
-    #blogs-advertising {
-        .advertisings {
-            width: 100%;
-            height: 800px;
-
-
-            .advertising-logo {
-                width: 100%;
-                height: 7%;
-
-                text-align: center;
-
-            }
-
-            .advertising-title {
-                width: 100%;
-                height: 10%;
-
-                text-align: center;
-
-                h2 {
-                    color: #ca8f65;
-                    height: auto;
-                }
-
-
-            }
-
-            .advertising-line {
-                width: 100%;
-                height: 7%;
-
-                text-align: center;
-
-
-                img {
-                    width: auto;
-                    height: auto;
-                }
-
-            }
-
-
-            .advertising-img {
-                width: 100%;
-                height: 37%;
-
-                img {
-                    width: 100%;
-                }
-            }
-
-            .advertising-icons {
-                width: 100%;
-                height: 25%;
-
-
-                .shipping {
-                    width: 100%;
-                    height: auto;
-
-                    text-align: center;
-
-                    img {
-                        &:hover {
-                            margin-top: -10px;
-                            transition: 0.6s;
-                        }
-                    }
-
-
-
-                }
-
-                .shipping-name {
-                    width: 100%;
-                    height: auto;
-                    text-align: center;
-
-
-                    h4 {
-                        &::before {
-                            content: "";
-                            display: block;
-                            width: 0;
-                            margin: 0 auto;
-                            height: 2px;
-                            top: -15px;
-                            position: relative;
-                        }
-
-                        color: white;
-                    }
-                }
-
-                .shipping-description {
-                    width: 100%;
-                    height: auto;
-
-                    text-align: center;
-
-                    span {
-                        color: #8e8e8e;
-                        ;
-                    }
-                }
-
-
-            }
-
-
-        }
-    }
-
-    #blogs {
-        .home-blog-logo {
-            width: 100%;
-            height: 70px;
-            text-align: center;
-
-        }
-
-        .home-blog-name {
-            width: 100%;
-            height: 70px;
-
-            text-align: center;
-
-            h1 {
-                color: #ca8f65;
-                height: 100%;
-            }
-        }
-
-        .home-blog-line {
-            width: 100%;
-            height: 50px;
-            text-align: center;
-
-        }
-
-
-
-        .home-blogs {
-            width: 100;
-
-
-            a {
-                text-decoration: none;
-                position: absolute;
-                right: 5%;
-                top: 5%;
-                color: white;
-
-                display: none;
-
-                i {
-                    font-size: 24px;
-                }
-
-                &:hover {
-                    color: #ca8f65;
-                }
-
-
-
-
-            }
-
-
-            span {
-                color: #f1e9e4;
-            }
-
-
-            .home-blog {
-                background-color: #484848
-            }
-
-            .homes-blogs-hover {
-
-                &:hover {
-                    a {
-                        display: block;
-
-                        i {}
-                    }
-                }
-            }
-
-
-
-
-
-        }
-
-
-
-
-
-
-
-    }
-
-    #background-img-three{
-        .back-img{
             width: 100%;
             height: 29px;
 
@@ -1288,7 +736,13 @@ main {
 
 
 
+
+
+
+
+
 }
+
 
 
 footer {

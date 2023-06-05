@@ -6,12 +6,13 @@
 
 body {
   width: 100%;
+  height: auto;
   background-color: #343333;
 }
 
 header #navbars {
   width: 100%;
-  height: auto;
+  height: 120px;
   position: absolute;
   z-index: 5;
 }
@@ -126,200 +127,59 @@ header #navbars .header-icons a span:last-child {
   color: #ca8f65;
 }
 
-main #background-images .background-image {
-  position: relative;
+main #main-up {
+  background-color: #2a2a2a;
 }
-main #background-images .background-image img {
+main #main-up .main-up-contact-name {
   width: 100%;
-}
-main #background-images .background-image img:first-child {
-  position: absolute;
-}
-main #background-images .background-image img:nth-child(2) {
-  position: absolute;
-}
-main #background-images .background-image img:last-child {
-  position: absolute;
-}
-main #sliders .slider {
-  width: 100%;
-  height: 100%;
-}
-main #sliders .slider .swiper-slide h2 {
-  color: white;
-  font-size: 90px;
-  position: relative;
-  top: 156px;
-}
-main #sliders .slider .swiper-slide h3 {
-  color: #ca8f65;
-  position: relative;
-  top: 200px;
-  left: 6%;
-}
-main #sliders .slider .swiper-slide h4 {
-  color: white;
-  position: relative;
-  top: 160px;
-}
-main #sliders .slider .swiper-slide span {
-  color: whitesmoke;
-  position: relative;
-  top: 180px;
-}
-main #sliders .slider .swiper-slide:first-child img {
-  width: 45%;
-  height: 10%;
-  position: relative;
-  float: right;
-  bottom: 20px;
-  right: 3%;
-}
-main #sliders .slider .swiper-slide:nth-child(2) img {
-  width: 43%;
-  height: 10%;
-  position: relative;
-  float: right;
-  bottom: 10px;
-  right: 8%;
-}
-main #sliders .slider .swiper-slide:nth-child(3) img {
-  width: 40%;
-  height: 10%;
-  position: relative;
-  float: right;
-  right: 6%;
-}
-main #sliders .slider .swiper-slide:last-child img {
-  width: 30%;
-  height: 10%;
-  position: relative;
-  float: right;
-  bottom: 50px;
-  right: 7%;
-}
-main #main-traditions .main-tradition {
-  width: 100%;
-  height: 800px;
-}
-main #main-traditions .main-tradition .main-lineback img {
-  position: absolute;
-  width: 100%;
-}
-main #main-traditions .main-tradition .main-logo {
+  height: 65px;
   text-align: center;
-  width: 100%;
-  height: 32%;
+  margin-top: 15%;
 }
-main #main-traditions .main-tradition .main-logo img {
-  width: 3%;
-  margin-top: 5%;
-}
-main #main-traditions .main-tradition .main-logo h1 {
+main #main-up .main-up-contact-name h1 {
   color: #ca8f65;
 }
-main #main-traditions .main-tradition .main-line {
+main #main-up .main-up-contact-signature {
   width: 100%;
-  height: 10%;
+  height: 65px;
   text-align: center;
 }
-main #main-traditions .main-tradition .main-line img {
-  margin-top: 2%;
-}
-main #main-traditions .main-tradition .tradition-description {
+main #main-up .main-up-contact-descriptions {
   width: 100%;
-  height: 12%;
+  height: 120px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-main #main-traditions .main-tradition .tradition-description h5 {
+main #main-up .main-up-contact-descriptions .main-up-contact-description {
+  width: 50%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #main-up .main-up-contact-descriptions .main-up-contact-description p {
   color: white;
 }
-main #main-traditions .main-tradition .main-signature {
-  width: 100%;
-  height: 12%;
-  text-align: center;
+main #background-img {
+  width: 100;
 }
-main #main-traditions .main-tradition .main-lines {
-  width: 100%;
-  height: 20%;
-  text-align: center;
-  padding-top: 5%;
-}
-main #special-collections .special-collection {
-  width: 100%;
-  height: 630px;
-  padding: 25px 28px 7px;
-  border: 1px solid #CA8F65;
-}
-main #special-collections .special-collection .special-prices {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-}
-main #special-collections .special-collection .special-prices .special-price {
-  width: 100%;
-  height: 56%;
-  padding-top: 10%;
-}
-main #special-collections .special-collection .special-prices .special-price h1 {
-  color: #ca8f65;
-}
-main #special-collections .special-collection .special-prices .special-price h4 {
-  color: rgb(240, 235, 235);
-}
-main #special-collections .special-collection .special-prices .zeros {
-  width: 100%;
-  height: 11%;
-  gap: 20%;
-}
-main #special-collections .special-collection .special-prices .zeros h1 {
-  color: #ca8f65;
-}
-main #special-collections .special-collection .special-prices .days-hours {
-  width: 100%;
-  height: 10%;
-  gap: 19%;
-}
-main #special-collections .special-collection .special-prices .days-hours h5 {
-  color: rgb(206, 206, 206);
-}
-main #special-collections .special-collection .special-prices .button-buy {
-  width: 100%;
-  height: 10%;
-}
-main #special-collections .special-collection .special-prices .button-buy button {
-  background-color: #ca8f65;
-  width: 25%;
-  height: 72%;
-  border: none;
-}
-main #special-collections .special-collection .special-prices .button-buy button:hover {
-  background-color: rgb(232, 232, 232);
-}
-main #special-collections .special-collection .special-prices .button-buy button a {
-  text-decoration: none;
-  color: rgb(57, 54, 54);
-}
-main #special-collections .special-collection .whiskey-men {
-  text-align: end;
+main #background-img img {
   width: 100%;
 }
-main #special-collections .special-collection .whiskey-men img {
+main #main-product-showing .main-products-showing {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
-main #background-img1 .back-img {
-  width: 100%;
-  height: 28px;
-  background-color: #343333;
-}
-main #background-img1 .back-img img {
-  width: 100%;
+main #main-product-showing .main-products-showing .products-showing-name p {
+  color: #a8a8a8;
 }
 main #main-products .main-product {
   width: 100%;
   height: auto;
-  background-color: #2a2a2a;
+  background-color: #343333;
 }
 main #main-products .main-product .product-priviews {
   width: 62%;
@@ -327,7 +187,6 @@ main #main-products .main-product .product-priviews {
   background-color: #303030;
   position: absolute;
   right: 18%;
-  margin-top: 20%;
 }
 main #main-products .main-product .product-priviews .priviews-img {
   width: 100%;
@@ -480,29 +339,6 @@ main #main-products .main-product .product-priviews .priviews-informs .whiskey-c
 main #main-products .main-product .product-priviews .priviews-informs .whiskey-categories a span:hover {
   color: white;
 }
-main #main-products .main-product .recommented-logo {
-  width: 100%;
-  height: 130px;
-  text-align: center;
-}
-main #main-products .main-product .recommented-logo img {
-  position: relative;
-  top: 23%;
-}
-main #main-products .main-product .recommented-products {
-  width: 100%;
-  height: 120px;
-  text-align: center;
-}
-main #main-products .main-product .recommented-products h1 {
-  font-weight: 600;
-  color: #ca8f65;
-}
-main #main-products .main-product .recommented-line {
-  width: 100%;
-  height: 70px;
-  text-align: center;
-}
 main #main-products .main-product .products-whiskeys {
   width: 100%;
   height: auto;
@@ -556,131 +392,6 @@ main #main-products .main-product .products-whiskeys .whiskeys .whiskey-name a {
 }
 main #main-products .main-product .products-whiskeys .whiskeys .whiskey-name span {
   color: #ca8f65;
-}
-main #background-img-two .back-img {
-  width: 100%;
-  height: 40px;
-  background-color: #343333;
-}
-main #background-img-two .back-img img {
-  width: 100%;
-}
-main #blogs-advertising .advertisings {
-  width: 100%;
-  height: 800px;
-}
-main #blogs-advertising .advertisings .advertising-logo {
-  width: 100%;
-  height: 7%;
-  text-align: center;
-}
-main #blogs-advertising .advertisings .advertising-title {
-  width: 100%;
-  height: 10%;
-  text-align: center;
-}
-main #blogs-advertising .advertisings .advertising-title h2 {
-  color: #ca8f65;
-  height: auto;
-}
-main #blogs-advertising .advertisings .advertising-line {
-  width: 100%;
-  height: 7%;
-  text-align: center;
-}
-main #blogs-advertising .advertisings .advertising-line img {
-  width: auto;
-  height: auto;
-}
-main #blogs-advertising .advertisings .advertising-img {
-  width: 100%;
-  height: 37%;
-}
-main #blogs-advertising .advertisings .advertising-img img {
-  width: 100%;
-}
-main #blogs-advertising .advertisings .advertising-icons {
-  width: 100%;
-  height: 25%;
-}
-main #blogs-advertising .advertisings .advertising-icons .shipping {
-  width: 100%;
-  height: auto;
-  text-align: center;
-}
-main #blogs-advertising .advertisings .advertising-icons .shipping img:hover {
-  margin-top: -10px;
-  transition: 0.6s;
-}
-main #blogs-advertising .advertisings .advertising-icons .shipping-name {
-  width: 100%;
-  height: auto;
-  text-align: center;
-}
-main #blogs-advertising .advertisings .advertising-icons .shipping-name h4 {
-  color: white;
-}
-main #blogs-advertising .advertisings .advertising-icons .shipping-name h4::before {
-  content: "";
-  display: block;
-  width: 0;
-  margin: 0 auto;
-  height: 2px;
-  top: -15px;
-  position: relative;
-}
-main #blogs-advertising .advertisings .advertising-icons .shipping-description {
-  width: 100%;
-  height: auto;
-  text-align: center;
-}
-main #blogs-advertising .advertisings .advertising-icons .shipping-description span {
-  color: #8e8e8e;
-}
-main #blogs .home-blog-logo {
-  width: 100%;
-  height: 70px;
-  text-align: center;
-}
-main #blogs .home-blog-name {
-  width: 100%;
-  height: 70px;
-  text-align: center;
-}
-main #blogs .home-blog-name h1 {
-  color: #ca8f65;
-  height: 100%;
-}
-main #blogs .home-blog-line {
-  width: 100%;
-  height: 50px;
-  text-align: center;
-}
-main #blogs .home-blogs {
-  width: 100;
-}
-main #blogs .home-blogs a {
-  text-decoration: none;
-  position: absolute;
-  right: 5%;
-  top: 5%;
-  color: white;
-  display: none;
-}
-main #blogs .home-blogs a i {
-  font-size: 24px;
-}
-main #blogs .home-blogs a:hover {
-  color: #ca8f65;
-}
-main #blogs .home-blogs span {
-  color: #f1e9e4;
-}
-main #blogs .home-blogs .home-blog {
-  background-color: #484848;
-}
-main #blogs .home-blogs .homes-blogs-hover:hover a {
-  display: block;
 }
 main #background-img-three .back-img {
   width: 100%;
@@ -745,4 +456,4 @@ footer #footer-lines .footer-line .footer-titles {
 }
 footer #footer-lines .footer-line .footer-titles span {
   color: #8e8e8e;
-}/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=product.css.map */
