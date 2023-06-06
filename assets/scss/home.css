@@ -15,6 +15,13 @@ header #navbars {
   position: absolute;
   z-index: 5;
 }
+header #navbars .bars {
+  width: 5%;
+  height: auto;
+}
+header #navbars .bars i {
+  color: #ca8f65;
+}
 header #navbars .navbar {
   width: 100%;
   height: 120px;
@@ -689,7 +696,6 @@ main #background-img-three .back-img {
 main #background-img-three .back-img img {
   width: 100%;
 }
-
 footer #footer .footers {
   width: 100%;
   height: auto;

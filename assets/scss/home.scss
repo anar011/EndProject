@@ -24,6 +24,15 @@ header {
 
         @media screen and (max-width:391px) {}
 
+        .bars{
+            width: 5%;
+            height: auto;
+
+            i{
+                color: #ca8f65;
+            }
+        }
+
 
 
 
@@ -1279,6 +1288,12 @@ main {
 
         }
 
+    }
+
+    #paginations{
+        .pagination{
+
+        }
     }
 
 
