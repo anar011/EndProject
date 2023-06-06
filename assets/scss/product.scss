@@ -702,59 +702,75 @@ main {
 
             }
 
-
-           
-
-
-
-
-
-
-
-        }
-    }
-
-
-    #paginations{
-        .paginations{
-            width: 100%;
-            height: auto;
-            
-            
-         
-           
-      
-
-            .pagination{
-                width: 20%;
-                height: auto;
-               
-                
-               
-              
-             
+            .paginations {
+                width: 100%;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+    
+                .pagination {
+                    width: 100;
+                    height: auto;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+    
+    
+                    a {
+                        color: #ca8f65;
+                        float: left;
+                        padding: 8px 16px;
+                        text-decoration: none;
+                        transition: background-color .3s;
+    
+                        &:hover{
+                            color: white;
+    
+                        }
+    
+                        .active {
+                            background-color: white;
+                            color: #2a2a2a;
+                        }
     
     
     
-                a{
-                   color: #ca8f65;
-                    gap: 2%;
-                    padding: 8px 16px;
-                    text-decoration: none;
-                    transition: background-color .3s;
     
     
-                    .active {
-                        background-color: dodgerblue;
-                        color: white;
+    
                     }
     
                 }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
             }
 
+
+           
+
+
+
+
+
+
+
         }
-       
     }
+
+
+   
 
     
     #background-img-three {

@@ -393,24 +393,34 @@ main #main-products .main-product .products-whiskeys .whiskeys .whiskey-name a {
 main #main-products .main-product .products-whiskeys .whiskeys .whiskey-name span {
   color: #ca8f65;
 }
-main #paginations .paginations {
+main #main-products .main-product .paginations {
   width: 100%;
-  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-main #paginations .paginations .pagination {
-  width: 20%;
+main #main-products .main-product .paginations .pagination {
+  width: 100;
   height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-main #paginations .paginations .pagination a {
+main #main-products .main-product .paginations .pagination a {
   color: #ca8f65;
-  gap: 2%;
+  float: left;
   padding: 8px 16px;
   text-decoration: none;
   transition: background-color 0.3s;
 }
-main #paginations .paginations .pagination a .active {
-  background-color: dodgerblue;
+main #main-products .main-product .paginations .pagination a:hover {
   color: white;
+}
+main #main-products .main-product .paginations .pagination a .active {
+  background-color: white;
+  color: #2a2a2a;
 }
 main #background-img-three .back-img {
   width: 100%;
