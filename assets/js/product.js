@@ -50,7 +50,7 @@ $(document).ready(function () {
   modal.forEach(element => {
     element.addEventListener("click", function (e) {
       e.preventDefault();
-      document.querySelector(".product-priviews").classList.remove("d-none")
+      document.querySelector(".product-priviews-detail").classList.remove("d-none")
       document.body.style.overflow = "hidden";
 
     })
@@ -60,19 +60,19 @@ $(document).ready(function () {
   let closee = document.querySelector(".whiskey-name span i")
   closee.addEventListener("click", function (e) {
     e.preventDefault();
-    document.querySelector(".product-priviews").classList.add("d-none")
+    document.querySelector(".product-priviews-detail").classList.add("d-none")
     document.body.style.overflowY = "scroll"
   })
 
 
   //Modal price
 
-  let oneprice = document.querySelector(".product-priviews .priviews-informs .whiskey-capacity").children[1]
+  let oneprice = document.querySelector(".product-priviews-detail .priviews-informs .whiskey-capacity").children[1]
   oneprice.addEventListener("click", function (e) {
     e.preventDefault();
-    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[0].classList.toggle("d-none")
-    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[1].classList.add("d-none")
-    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[2].classList.add("d-none")
+    document.querySelector(".product-priviews-detail .whiskey-price").children[0].classList.toggle("d-none")
+    document.querySelector(".product-priviews-detail .priviews-informs .whiskey-price").children[1].classList.add("d-none")
+    document.querySelector(".product-priviews-detail .priviews-informs .whiskey-price").children[2].classList.add("d-none")
 
 
   })
@@ -81,20 +81,20 @@ $(document).ready(function () {
 
 
 
-  let twoprice = document.querySelector(".product-priviews .priviews-informs .whiskey-capacity").children[2]
+  let twoprice = document.querySelector(".product-priviews-detail .priviews-informs .whiskey-capacity").children[2]
   twoprice.addEventListener("click", function (e) {
     e.preventDefault();
-    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[1].classList.toggle("d-none")
-    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[0].classList.add("d-none")
-    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[2].classList.add("d-none")
+    document.querySelector(".product-priviews-detail .priviews-informs .whiskey-price").children[1].classList.toggle("d-none")
+    document.querySelector(".product-priviews-detail .priviews-informs .whiskey-price").children[0].classList.add("d-none")
+    document.querySelector(".product-priviews-detail .priviews-informs .whiskey-price").children[2].classList.add("d-none")
   })
 
-  let threeprice = document.querySelector(".product-priviews .priviews-informs .whiskey-capacity").children[3]
+  let threeprice = document.querySelector(".product-priviews-detail .priviews-informs .whiskey-capacity").children[3]
   threeprice.addEventListener("click", function (e) {
     e.preventDefault();
-    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[2].classList.toggle("d-none")
-    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[0].classList.add("d-none")
-    document.querySelector(".product-priviews .priviews-informs .whiskey-price").children[1].classList.add("d-none")
+    document.querySelector(".product-priviews-detail .priviews-informs .whiskey-price").children[2].classList.toggle("d-none")
+    document.querySelector(".product-priviews-detail .priviews-informs .whiskey-price").children[0].classList.add("d-none")
+    document.querySelector(".product-priviews-detail .priviews-informs .whiskey-price").children[1].classList.add("d-none")
   })
 
 

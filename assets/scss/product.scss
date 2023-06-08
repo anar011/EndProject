@@ -311,20 +311,42 @@ main {
 
     #main-product-showing {
 
-        .main-products-showing {
-
-            width: 100%;
-            height: auto;
-
-            .products-showing-name {
-                p {
-                    color: #a8a8a8;
+            .products-category-name{
+                width: 100%;
+                height: auto;
+                // border: 2px solid #534e4e;
+                
+                
+               
+                span{
+                    color: #ca8f65;
+                    cursor: pointer;
                 }
+
+
+                p{
+                    color: #ca8f65;
+                    cursor: pointer;
+                }
+
+
+
+
             }
 
+            .products-filtered-name{
+                width: 100%;
+                height: auto;
+             
+                
+             
+            }
+
+         
 
 
-        }
+
+        
 
 
     }
@@ -337,7 +359,7 @@ main {
             background-color: #343333;
 
 
-            .product-priviews {
+            .product-priviews-detail {
                 width: 62%;
                 height: 74%;
                 background-color: #303030;
