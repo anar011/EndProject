@@ -380,6 +380,10 @@ main #main-down .main-down-question .main-down-fullname-phone .main-down-fullnam
 main #main-down .main-down-question .main-down-fullname-phone .main-down-fullname form button:hover {
   background-color: aliceblue;
 }
+main #main-map iframe {
+  width: 100%;
+  background-color: #949494 !important;
+}
 
 footer #footer .footers {
   width: 100%;

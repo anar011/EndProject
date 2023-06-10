@@ -181,9 +181,157 @@ main #main-product-showing .products-category-name p {
   color: #ca8f65;
   cursor: pointer;
 }
+main #main-product-showing .products-category-name .categories {
+  width: 100%;
+  height: auto;
+}
+main #main-product-showing .products-category-name .categories:hover span {
+  color: white;
+}
+main #main-product-showing .products-category-name .categories:hover p {
+  color: white;
+}
 main #main-product-showing .products-filtered-name {
   width: 100%;
   height: auto;
+  /* Price Range */
+  /* Price Range Containers */
+  /* Price Range Input */
+  /* Price Range Input Track */
+  /* Price Range Input Thumb */
+  /* Price Range Output */
+}
+main #main-product-showing .products-filtered-name header {
+  text-align: center;
+}
+main #main-product-showing .products-filtered-name header h2 {
+  color: #ca8f65;
+}
+main #main-product-showing .products-filtered-name header h2 span {
+  display: block;
+  font-size: 1.25rem;
+  letter-spacing: 0.048em;
+  font-weight: 300;
+}
+main #main-product-showing .products-filtered-name header p {
+  margin: 0;
+}
+main #main-product-showing .products-filtered-name header a {
+  color: inherit;
+  font-weight: 500;
+  text-underline-offset: 3px;
+}
+main #main-product-showing .products-filtered-name .container price-range {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+main #main-product-showing .products-filtered-name price-range {
+  --thumb-size: 15px;
+  --thumb-color: white;
+  --thumb-shadow-size: 5px;
+  --track-size: 1px;
+  --track-color: white;
+  --track-highlight-color: #ca8f65;
+  width: 100%;
+  display: block;
+}
+main #main-product-showing .products-filtered-name price-range > div {
+  position: relative;
+  width: 100%;
+  height: var(--thumb-size);
+}
+main #main-product-showing .products-filtered-name price-range > div > div {
+  width: 100%;
+  height: var(--track-size);
+  background: var(--track-color);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+main #main-product-showing .products-filtered-name price-range input[type=range] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+main #main-product-showing .products-filtered-name price-range input[type=range]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  height: 5px;
+}
+main #main-product-showing .products-filtered-name price-range input[type=range]::-moz-range-track {
+  -moz-appearance: none;
+  height: 5px;
+}
+main #main-product-showing .products-filtered-name price-range input[type=range]::-ms-track {
+  appearance: none;
+  height: 5px;
+}
+main #main-product-showing .products-filtered-name price-range input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  margin-top: -5px;
+  width: var(--thumb-size);
+  height: var(--thumb-size);
+  background: var(--thumb-color);
+  border: none;
+  border-radius: 50%;
+  pointer-events: auto;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 var(--thumb-color);
+  -webkit-transition: box-shadow 0.15s ease;
+  transition: box-shadow 0.15s ease;
+}
+main #main-product-showing .products-filtered-name price-range input[type=range]::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 0 var(--thumb-shadow-size) var(--thumb-color);
+}
+main #main-product-showing .products-filtered-name price-range input[type=range]::-moz-range-thumb {
+  -moz-appearance: none;
+  width: var(--thumb-size);
+  height: var(--thumb-size);
+  background: var(--thumb-color);
+  border: none;
+  border-radius: 50%;
+  pointer-events: auto;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 var(--thumb-color);
+  -moz-transition: box-shadow 0.15s ease;
+  transition: box-shadow 0.15s ease;
+}
+main #main-product-showing .products-filtered-name price-range input[type=range]::-moz-range-thumb:hover {
+  box-shadow: 0 0 0 var(--thumb-shadow-size) var(--thumb-color);
+}
+main #main-product-showing .products-filtered-name price-range input[type=range]::-ms-thumb {
+  appearance: none;
+  width: var(--thumb-size);
+  height: var(--thumb-size);
+  background: var(--thumb-color);
+  border: none;
+  border-radius: 50%;
+  pointer-events: auto;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 var(--thumb-color);
+  -ms-transition: box-shadow 0.15s ease;
+  transition: box-shadow 0.15s ease;
+}
+main #main-product-showing .products-filtered-name price-range input[type=range]::-ms-thumb:hover {
+  box-shadow: 0 0 0 var(--thumb-shadow-size) var(--thumb-color);
+}
+main #main-product-showing .products-filtered-name price-range output {
+  display: block;
+  margin-top: 1rem;
+  text-align: center;
+  color: #f9eeee;
 }
 main #main-products .main-product {
   width: 100%;

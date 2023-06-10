@@ -134,36 +134,36 @@
         <section id="main-product-showing">
             <div class="container">
                 <div class="row">                
-                        <div class="col-6 mt-5">
+                        <div class="col-9 mt-5">
                             <div class="products-category-name mt-5">
 
                                 <div class="products-category d-flex">
                                     <p>Category</p>
                                 </div >
 
-                                <div class="products-category-all d-flex">
+                                <div class="products-category-all categories d-flex">
                                     <span>All</span>
                                      <p>(9)</p>
                                     
                                 </div>
 
 
-                                <div class="products-category-whiskey d-flex">
+                                <div class="products-category-whiskey categories d-flex">
                                     <span>Whiskey</span>
                                     <p>(6)</p>
                                 </div>
 
-                                <div class="products-category-premium d-flex">
+                                <div class="products-category-premium categories d-flex">
                                     <span>Premium Whiskey</span>
                                     <p>(1)</p>
                                 </div>
 
-                                <div class="products-category-bourbon d-flex">
+                                <div class="products-category-bourbon categories d-flex">
                                     <span>Bourbon</span>
                                     <p>(3)</p>
                                 </div>
 
-                                <div class="products-category-scotch d-flex">
+                                <div class="products-category-scotch categories d-flex">
                                     <span>Scotch</span>
                                     <p>(1)</p>
                                 </div>
@@ -174,9 +174,49 @@
                         </div>
 
 
-                        <div class="col-6 mt-5">
+                        <div class="col-3 mt-5">
                             <div class="products-filtered-name mt-5">
-                               
+                                <div class="container">
+                                    <header>
+                                      <h2>
+                                        Price
+                                       
+                                      </h1>
+                                    
+                                    </header>
+                                    <price-range currency="$">
+                                      <div class="mt-5">
+                                        <div>
+                                          <input
+                                            name="price-from"
+                                            type="range"
+                                            min="0"
+                                            max="100"
+                                            step="1"
+                                            value="25"
+                                            aria-label="From"
+                                          />
+                                          <input
+                                            name="price-to"
+                                            type="range"
+                                            min="0"
+                                            max="100"
+                                            step="1"
+                                            value="75"
+                                            aria-label="To"
+                                          />
+                                        </div>
+                                      </div>
+                                      <output>
+                                        output
+                                      </output>
+                                    </price-range>
+                                    
+                                  </div>
+
+
+
+                                
                             </div>
 
 
