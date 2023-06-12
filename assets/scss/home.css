@@ -15,13 +15,6 @@ header #navbars {
   position: absolute;
   z-index: 5;
 }
-header #navbars .bars {
-  width: 5%;
-  height: auto;
-}
-header #navbars .bars i {
-  color: #ca8f65;
-}
 header #navbars .navbar {
   width: 100%;
   height: 120px;
@@ -132,6 +125,102 @@ header #navbars .header-icons a span:last-child {
   bottom: 0px;
   color: #ca8f65;
 }
+header #tablet-navbars .tablet-navbar {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 5;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-menu-icon {
+  width: 100%;
+  height: auto;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-menu-icon i {
+  font-size: 50px;
+  color: #ca8f65;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-menu {
+  width: 50%;
+  height: auto;
+  background-color: #303030;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-menu ul {
+  list-style: none;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-menu ul li a {
+  text-decoration: none;
+  color: #ca8f65;
+}
+header #tablet-navbars .tablet-navbar .header-login-register {
+  width: 23%;
+  height: 55%;
+  background-color: rgb(243, 243, 243);
+  position: absolute;
+}
+header #tablet-navbars .tablet-navbar .header-login-register .header-login {
+  text-align: left;
+  width: 100%;
+  height: 50%;
+}
+header #tablet-navbars .tablet-navbar .header-login-register .header-login:hover {
+  background-color: white;
+}
+header #tablet-navbars .tablet-navbar .header-login-register .header-login a {
+  text-decoration: none;
+  color: rgb(26, 26, 26);
+  margin-left: 2%;
+}
+header #tablet-navbars .tablet-navbar .header-login-register .header-register {
+  text-align: left;
+  width: 100%;
+  height: 50%;
+}
+header #tablet-navbars .tablet-navbar .header-login-register .header-register:hover {
+  background-color: white;
+}
+header #tablet-navbars .tablet-navbar .header-login-register .header-register a {
+  text-decoration: none;
+  color: rgb(26, 26, 26);
+  margin-left: 2%;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-logo {
+  width: 100%;
+  height: auto;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-icons {
+  width: 100%;
+  height: auto;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-icons a {
+  text-decoration: none;
+  color: #ca8f65;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-icons a:nth-child(3) span {
+  position: relative;
+  bottom: 12px;
+  right: 2%;
+  font-size: 25px;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-icons a:nth-child(4) span:nth-child(2) {
+  position: relative;
+  bottom: 12px;
+  right: 2%;
+  font-size: 25px;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-icons a i {
+  width: 10%;
+  font-size: 25px;
+}
+header #tablet-navbars .tablet-navbar-search {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 5;
+  top: 7%;
+}
+header #tablet-navbars .tablet-navbar-search input {
+  margin-left: 66%;
+}
 
 main #background-images .background-image {
   position: relative;
@@ -204,6 +293,16 @@ main #sliders .slider .swiper-slide:last-child img {
   float: right;
   bottom: 50px;
   right: 7%;
+}
+main #background-slider {
+  width: 100%;
+  height: auto;
+}
+main #background-slider img {
+  width: 100%;
+  opacity: 0.8;
+  position: relative;
+  bottom: 23px;
 }
 main #main-traditions .main-tradition {
   width: 100%;
@@ -330,11 +429,12 @@ main #main-products .main-product {
 }
 main #main-products .main-product .product-priviews {
   width: 62%;
-  height: 74%;
+  height: auto;
   background-color: #303030;
   position: absolute;
   right: 18%;
   margin-top: 20%;
+  z-index: 99;
 }
 main #main-products .main-product .product-priviews .priviews-img {
   width: 100%;

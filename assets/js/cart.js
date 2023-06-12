@@ -47,6 +47,8 @@ $(document).ready(function () {
     //Basket-Cart
 
 
+
+
     let tableBody = document.querySelector("tbody");
     let products = JSON.parse(localStorage.getItem("basket"));
     
@@ -218,7 +220,9 @@ $(document).ready(function () {
     }
     
     showGrandTotal();
-
+    
+    
+    
 
 
 

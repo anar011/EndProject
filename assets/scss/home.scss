@@ -7,9 +7,13 @@
 
 body {
     width: 100%;
-   
+
     background-color: #343333;
 }
+
+@media screen and (max-width:821px) {}
+
+@media screen and (max-width:391px) {}
 
 
 
@@ -24,22 +28,6 @@ header {
 
         @media screen and (max-width:391px) {}
 
-        .bars{
-            width: 5%;
-            height: auto;
-
-            i{
-                color: #ca8f65;
-            }
-        }
-
-
-
-
-
-
-        
-
 
 
 
@@ -47,14 +35,7 @@ header {
             width: 100%;
             height: 120px;
 
-            @media screen and (max-width:821px) {
-
-            }
-
-
-
-            
-
+            @media screen and (max-width:821px) {}
 
 
             ul {
@@ -150,24 +131,25 @@ header {
             height: 100%;
             text-align: center;
 
-            .header-login-register{
+            .header-login-register {
                 width: 12%;
                 height: 55%;
                 background-color: rgb(243, 243, 243);
                 position: absolute;
 
-         
-                
 
-                .header-login{
+
+
+                .header-login {
                     text-align: left;
                     width: 100%;
                     height: 50%;
-                    &:hover{
+
+                    &:hover {
                         background-color: white;
                     }
-                    
-                    a{
+
+                    a {
                         text-decoration: none;
                         color: rgb(26, 26, 26);
                         margin-left: 2%;
@@ -176,18 +158,18 @@ header {
                 }
 
 
-                .header-register{
-                    
+                .header-register {
+
                     text-align: left;
                     width: 100%;
                     height: 50%;
 
-                    &:hover{
+                    &:hover {
                         background-color: white;
                     }
-                    
-                    
-                    a{
+
+
+                    a {
                         text-decoration: none;
                         color: rgb(26, 26, 26);
                         margin-left: 2%;
@@ -266,6 +248,186 @@ header {
 
 
 
+    }
+
+    #tablet-navbars{
+        
+
+        .tablet-navbar{
+            width: 100%;
+            height: auto;
+            position: absolute;
+            z-index: 5;
+
+            .tablet-navbar-menu-icon{
+                width: 100%;
+                height: auto;
+
+                i{
+                    font-size: 50px;
+                    color: #ca8f65;
+                }
+                
+
+
+
+
+            }
+            .tablet-navbar-menu{
+                width: 50%;
+                height: auto;
+             background-color: #303030;
+
+                ul{
+                    list-style: none;
+                    li{
+                        a{
+                            text-decoration: none;
+                            color: #ca8f65;
+                        }
+                    }
+                }
+            }
+
+            .header-login-register {
+                width: 23%;
+                height: 55%;
+                background-color: rgb(243, 243, 243);
+                position: absolute;
+
+
+
+
+                .header-login {
+                    text-align: left;
+                    width: 100%;
+                    height: 50%;
+
+                    &:hover {
+                        background-color: white;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: rgb(26, 26, 26);
+                        margin-left: 2%;
+
+                    }
+                }
+
+
+                .header-register {
+
+                    text-align: left;
+                    width: 100%;
+                    height: 50%;
+
+                    &:hover {
+                        background-color: white;
+                    }
+
+
+                    a {
+                        text-decoration: none;
+                        color: rgb(26, 26, 26);
+                        margin-left: 2%;
+
+                    }
+
+                }
+
+
+
+            }
+
+         
+        
+
+            .tablet-navbar-logo{
+                width: 100%;
+                height: auto;
+                img{
+                    
+                }
+            }
+
+
+
+            .tablet-navbar-icons{
+                width: 100%;
+                height: auto;
+                
+              
+
+                a{
+                  
+                    text-decoration: none;
+                    color: #ca8f65;
+
+                    &:nth-child(3){
+                        span{
+                            
+                            position: relative;
+                            bottom: 12px;
+                            right:2%;
+                            font-size: 25px;
+                          
+                        }
+                    }
+
+
+                    &:nth-child(4){
+
+                        span{
+                         
+                            &:nth-child(2){
+                                position: relative;
+                                bottom: 12px;
+                                right:2%;
+                                font-size: 25px;
+                              
+
+                          
+
+                            }
+                       
+                          
+                        }
+                     
+                       
+                    }
+                    i{
+                        width: 10%;
+                        font-size: 25px;
+                       
+
+                     
+
+                    }
+
+                }
+            }
+
+
+            
+
+        }
+
+        .tablet-navbar-search{
+            width: 100%;
+            height: auto;
+            position: absolute;
+            z-index: 5;
+            top: 7%;
+            input{
+                margin-left: 66%;
+            }
+          
+            
+            
+        }
+
+     
     }
 }
 
@@ -434,6 +596,18 @@ main {
 
 
 
+    }
+
+    #background-slider {
+        width: 100%;
+        height: auto;
+
+        img {
+            width: 100%;
+            opacity: 0.8;
+            position: relative;
+            bottom: 23px;
+        }
     }
 
     #main-traditions {
@@ -655,12 +829,13 @@ main {
 
             .product-priviews {
                 width: 62%;
-                height: 74%;
+                height: auto;
                 background-color: #303030;
                 position: absolute;
                 right: 18%;
                 margin-top: 20%;
-                
+                z-index: 99;
+
 
 
 
@@ -785,7 +960,7 @@ main {
                             font-weight: 650;
                             color: #ca8f65;
 
-                     
+
                         }
 
 
@@ -1276,8 +1451,8 @@ main {
 
     }
 
-    #background-img-three{
-        .back-img{
+    #background-img-three {
+        .back-img {
             width: 100%;
             height: 29px;
 
@@ -1290,7 +1465,7 @@ main {
 
     }
 
-  
+
 
 
 
@@ -1376,10 +1551,10 @@ footer {
 
 
             }
-              
 
 
-            
+
+
 
 
 
@@ -1393,25 +1568,27 @@ footer {
 
     }
 
-    #footer-lines{
+    #footer-lines {
         width: 100%;
         height: 60px;
-        .footer-line{
+
+        .footer-line {
             width: 100%;
             height: 1px;
             background-color: rgb(104, 104, 104);
 
 
-            .footer-title{
-                span{
+            .footer-title {
+                span {
                     color: #8e8e8e;
                 }
             }
 
-            .footer-titles{
+            .footer-titles {
                 text-align: end;
-                span{
-                    color:#8e8e8e;
+
+                span {
+                    color: #8e8e8e;
                 }
             }
         }
