@@ -11,9 +11,130 @@ body {
     background-color: #343333;
 }
 
-@media screen and (max-width:821px) {}
+@media screen and (max-width:850px) {
 
-@media screen and (max-width:391px) {}
+    #background-images{
+        .background-image{
+            width: 100%;
+            height: auto;
+            img{
+                width: 100%;
+                height: auto;
+
+            }
+        }
+    }
+
+
+    #sliders{
+        .slider{
+            .swiper{
+                .swiper-wrapper{
+                    .swiper-slide{
+                       margin-top: 20px;
+                       
+
+                        h2{
+                            font-size: 30px;
+                            margin-top: -116px;
+                            margin-left: 10%;
+                          
+                            
+                        }
+
+                        h4{
+                            font-size: 10px;
+                            margin-left: 10%;
+                        }
+
+                        span{
+                            font-size: 10px;
+
+                        }
+                       
+
+                     
+
+                        img{
+                            width: 30%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #background-slider{
+        .back-img{
+            img{
+                margin-top: 25px;
+            }
+
+        }
+    }
+
+    #main-traditions{
+        .main-tradition{
+            .main-lineback{
+                width: 100%;
+                height: auto;
+              img{
+                width: 100%;
+              }
+            }
+
+            .main-logo{
+                width: 100%;
+                height: auto;
+                img{
+                    width: 10% !important;
+                    
+                }
+
+                h1{
+                    font-size: 20px;
+                }
+            }
+
+            .main-line{
+                margin-top: -30%;
+               
+            }
+
+            .tradition-description{
+                h5{
+                    font-size: 5px;
+                }
+            }
+
+            .main-signature{
+                margin-top: -50px;
+            }
+
+            .main-lines{
+
+                margin-top: -30px;
+
+            }
+
+        }
+    }
+
+    #special-collections{
+        .special-collection{
+
+        }
+    }
+
+    
+}
+
+
+
+
+@media screen (min-width:760px) and (max-width:1200px) {
+}
 
 
 
@@ -184,8 +305,34 @@ header {
 
 
 
+
+
             a {
                 text-decoration: none;
+
+
+                b {
+                    color: #ca8f65;
+                    position: relative;
+                    right: 7%;
+                    bottom: 18px;
+                    display: inline-block;
+                    width: 18px;
+                    line-height: 18px;
+                    text-align: center;
+                    font-size: 11px;
+                    background-color: #ca8f65;
+                    color: white;
+                    border-radius: 100%;
+
+                }
+
+
+
+
+
+
+
 
 
 
@@ -233,6 +380,10 @@ header {
 
 
 
+
+
+
+
             }
 
 
@@ -250,47 +401,74 @@ header {
 
     }
 
-    #tablet-navbars{
-        
+    #tablet-navbars {
 
-        .tablet-navbar{
+
+        .tablet-navbar {
             width: 100%;
             height: auto;
             position: absolute;
             z-index: 5;
 
-            .tablet-navbar-menu-icon{
+            .tablet-navbar-menu-icon {
                 width: 100%;
                 height: auto;
 
-                i{
+                i {
                     font-size: 50px;
                     color: #ca8f65;
                 }
-                
+
 
 
 
 
             }
-            .tablet-navbar-menu{
-                width: 50%;
-                height: auto;
-             background-color: #303030;
 
-                ul{
+
+
+            .tablet-navbar-menu {
+                width: 67%;
+                height: 74%;
+                background-color: #2a2a2a;
+                border-radius: 2%;
+
+                hr {
+                    color: #f1e9e4;
+                    margin-left: -31px;
+                }
+
+                ul {
                     list-style: none;
-                    li{
-                        a{
+
+                    li {
+                        padding-top: 10px;
+
+
+
+
+                        a {
                             text-decoration: none;
                             color: #ca8f65;
+
+                            span {
+                                font-family: cursive;
+
+                            }
+
+
+
+
+
                         }
+
+
                     }
                 }
             }
 
             .header-login-register {
-                width: 23%;
+                width: 24%;
                 height: 55%;
                 background-color: rgb(243, 243, 243);
                 position: absolute;
@@ -340,68 +518,68 @@ header {
 
             }
 
-         
-        
 
-            .tablet-navbar-logo{
+
+
+            .tablet-navbar-logo {
                 width: 100%;
                 height: auto;
-                img{
-                    
-                }
+
+                img {}
             }
 
 
 
-            .tablet-navbar-icons{
+            .tablet-navbar-icons {
                 width: 100%;
                 height: auto;
-                
-              
 
-                a{
-                  
+
+
+                a {
+
                     text-decoration: none;
                     color: #ca8f65;
 
-                    &:nth-child(3){
-                        span{
-                            
+                    &:nth-child(3) {
+                        span {
+
                             position: relative;
                             bottom: 12px;
-                            right:2%;
+                            right: 2%;
                             font-size: 25px;
-                          
+
                         }
                     }
 
 
-                    &:nth-child(4){
+                    &:nth-child(4) {
 
-                        span{
-                         
-                            &:nth-child(2){
+                        span {
+
+                            &:nth-child(2) {
                                 position: relative;
                                 bottom: 12px;
-                                right:2%;
+                                right: 2%;
                                 font-size: 25px;
-                              
 
-                          
+
+
 
                             }
-                       
-                          
+
+
                         }
-                     
-                       
+
+
                     }
-                    i{
+
+                    i {
                         width: 10%;
                         font-size: 25px;
-                       
 
-                     
+
+
 
                     }
 
@@ -409,29 +587,236 @@ header {
             }
 
 
-            
+
 
         }
 
-        .tablet-navbar-search{
+        .tablet-navbar-search {
             width: 100%;
             height: auto;
             position: absolute;
             z-index: 5;
             top: 7%;
-            input{
+
+            input {
                 margin-left: 66%;
             }
-          
-            
-            
+
+
+
         }
 
-     
+
+    }
+
+    #phone-navbars {
+
+        .phone-navbars {
+            width: 100%;
+            height: auto;
+            background-color: #343333;
+            z-index: 20;
+
+
+
+            .phone-navbar-logo {
+                width: 100%;
+                height: auto;
+                text-align: end;
+            }
+
+            .phone-navbar-basket {
+                width: 100%;
+                height: auto;
+                text-align: end;
+
+                a {
+                    text-decoration: none;
+                    color: #ca8f65;
+
+                    span {
+
+
+
+                        &:nth-child(2) {
+
+                            position: relative;
+                            bottom: 10px;
+
+
+
+
+                        }
+
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+                }
+
+            }
+
+
+            .phone-navbar-icons {
+                width: 100%;
+                height: auto;
+                text-align: end;
+
+                i {
+                    color: #ca8f65;
+                    font-size: 26px;
+                }
+            }
+
+            .phone-navbar-menu-icons {
+                width: 100%;
+                height: auto;
+                background-color: #2a2a2a;
+                position: absolute;
+                border-radius: 2%;
+
+                .phone-navbar-menu-icon-search {
+                    width: 100%;
+                    height: auto;
+                    text-align: center;
+
+                 
+
+                    i {
+                        color: #ca8f65;
+                        font-size: 20px;
+                        
+
+
+
+                    }
+
+                }
+
+
+                .phone-navbar-menu-login-register {
+                    width: 100%;
+                    height: auto;
+                   
+                    text-align: center;
+
+                    hr {
+                        color: #ca8f65;
+                    }
+
+
+
+                    a {
+
+                        text-decoration: none;
+
+                        &:nth-child(2) {
+
+                            span {
+
+                                position: relative;
+                                bottom: 10px;
+                            }
+
+                        }
+
+
+                        &:nth-child(3) {
+
+
+                            span {
+
+                                &:nth-child(2) {
+                                    position: relative;
+                                    bottom: 10px;
+
+                                }
+
+
+                            }
+
+                        }
+
+                        i {
+                            color: #ca8f65;
+                        }
+
+                        span {
+                            color: #ca8f65;
+
+
+                        }
+
+
+                    }
+                }
+
+                .phone-login-register {
+                    width: 83%;
+                    height: auto;
+                    background-color: whitesmoke;
+                    
+                    a {
+                        text-decoration: none;
+                        color: #ca8f65;
+
+                    }
+
+
+                }
+
+                .phone-navbar-menu {
+                    width: 100%;
+                    height: auto;
+
+                    ul {
+                        list-style: none;
+                        margin-top: 12px;
+
+                        a {
+                            text-decoration: none;
+                            color: #ca8f65;
+                           span{
+                            font-family: cursive;
+                           }
+                            
+                        }
+
+                        hr{
+                            color: #ca8f65;
+                            margin-left: -31px;
+                        }
+
+
+                    }
+
+                }
+
+
+            }
+
+
+        }
     }
 }
 
 main {
+
+    
+    @media screen and (max-width:821px) {}
+
+    @media screen and (max-width:391px) {}
+
     #background-images {
 
 
@@ -473,12 +858,26 @@ main {
 
 
     }
+.swiper-button-next{
+    color:#2a2a2a;
+}
+.swiper-button-prev{
+    color:#2a2a2a;
+
+}
+.swiper-pagination{
+    span{
+        background: #2a2a2a;
+    }
+}
 
     #sliders {
 
         .slider {
             width: 100%;
             height: 100%;
+
+           
 
             .swiper-slide {
 
@@ -526,6 +925,7 @@ main {
 
                 &:first-child {
                     img {
+                      
                         width: 45%;
                         height: 10%;
                         position: relative;
