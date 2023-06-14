@@ -51,6 +51,7 @@ $(document).ready(function () {
     element.addEventListener("click", function (e) {
       e.preventDefault();
       document.querySelector(".product-priviews-detail").classList.remove("d-none")
+      document.querySelector("#overlay").style.display = "block"
       document.body.style.overflow = "hidden";
 
     })
@@ -61,6 +62,7 @@ $(document).ready(function () {
   closee.addEventListener("click", function (e) {
     e.preventDefault();
     document.querySelector(".product-priviews-detail").classList.add("d-none")
+    document.querySelector("#overlay").style.display = "none"
     document.body.style.overflowY = "scroll"
   })
 

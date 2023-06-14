@@ -50,7 +50,8 @@ $(document).ready(function () {
   modal.forEach(element => {
     element.addEventListener("click", function (e) {
       e.preventDefault();
-      document.querySelector(".product-priviews").classList.remove("d-none")
+      document.querySelector(".main-product .product-priviews").classList.remove("d-none")
+      document.querySelector("#overlay").style.display = "block"
       document.body.style.overflow = "hidden";
 
     })
@@ -61,8 +62,19 @@ $(document).ready(function () {
   closee.addEventListener("click", function (e) {
     e.preventDefault();
     document.querySelector(".product-priviews").classList.add("d-none")
+    document.querySelector("#overlay").style.display = "none"
     document.body.style.overflowY = "scroll"
   })
+
+  // window.addEventListener("click", function (e) {
+  //   if (e.target == document.querySelector(".main-product .product-priviews")) {
+  //     document.querySelector(".main-product .product-priviews").classList.add("d-none")
+  //     document.querySelector(".main-product").classList.add("d-none");
+  //     document.querySelector("#overlay").style.display = "none";
+  //     this.document.body.style.overflow = "unset"
+  //   }
+  // })
+
 
 
   //Modal price
