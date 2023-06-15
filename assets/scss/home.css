@@ -51,6 +51,10 @@ body {
     font-size: 10px;
     margin-left: 10%;
   }
+  #sliders .slider .swiper .swiper-wrapper .swiper-slide h3 {
+    position: relative !important;
+    top: 10% !important;
+  }
   #sliders .slider .swiper .swiper-wrapper .swiper-slide span {
     font-size: 10px;
   }
@@ -133,6 +137,9 @@ body {
     position: relative;
     bottom: 328px;
   }
+  #main-products .main-product .products-whiskeys .whiskey img {
+    width: 100% !important;
+  }
   #main-products .main-product .product-priviews {
     display: none;
   }
@@ -174,8 +181,150 @@ body {
     bottom: 396px;
   }
   #blogs .home-blogs {
+    width: 100%;
+    height: auto;
     position: relative;
     bottom: 386px;
+  }
+  #blogs .home-blogs .home-blog {
+    width: auto !important;
+    height: auto;
+  }
+  #background-img-three .back-imgs {
+    position: relative !important;
+    bottom: 390px;
+  }
+  #footer .footers {
+    position: relative;
+    bottom: 401px;
+  }
+  #footer .footer .footer-description img {
+    display: none;
+  }
+  #footer-lines .footer-line {
+    position: relative;
+    bottom: 398px;
+  }
+}
+@media (min-width: 760px) and (max-width: 1200px) {
+  #sliders .slider {
+    position: relative;
+    top: 107px;
+  }
+  #sliders .slider .swiper .swiper-wrapper .swiper-slide {
+    margin-top: 20px;
+  }
+  #sliders .slider .swiper .swiper-wrapper .swiper-slide h2 {
+    font-size: 30px;
+    margin-top: -116px;
+    margin-left: 5%;
+  }
+  #sliders .slider .swiper .swiper-wrapper .swiper-slide h3 {
+    margin-left: 38px;
+    position: relative !important;
+    top: 190px !important;
+  }
+  #sliders .slider .swiper .swiper-wrapper .swiper-slide h4 {
+    font-size: 10px;
+    margin-left: 10%;
+  }
+  #sliders .slider .swiper .swiper-wrapper .swiper-slide span {
+    font-size: 14px;
+  }
+  #sliders .slider .swiper .swiper-wrapper .swiper-slide img {
+    width: 30%;
+    height: auto;
+  }
+  #background-slider .back-img {
+    margin-top: 11%;
+  }
+  #main-traditions .main-tradition {
+    margin-top: 20px;
+  }
+  #main-traditions .main-tradition .main-logo img {
+    width: 5% !important;
+  }
+  #main-traditions .main-tradition .main-logo h1 {
+    margin-top: 3%;
+  }
+  #main-traditions .main-tradition .main-line {
+    margin-top: -68px;
+  }
+  #main-traditions .main-tradition .main-lines {
+    display: none;
+  }
+  #special-collections .special-collection {
+    position: relative;
+    bottom: 362px;
+  }
+  #special-collections .special-collection .special-prices {
+    position: relative;
+    bottom: 78px;
+  }
+  #special-collections .special-collection .special-prices .special-price h1 {
+    font-size: 34px;
+  }
+  #special-collections .special-collection .special-prices .special-price h4 {
+    font-size: 15px;
+  }
+  #special-collections .special-collection .special-prices .zeros {
+    width: 100% !important;
+    height: 11%;
+    margin-top: 5%;
+    gap: 22% !important;
+  }
+  #special-collections .special-collection .special-prices .days-hours {
+    width: 100% !important;
+    gap: 124px !important;
+  }
+  #special-collections .special-collection .special-prices .button-buy button {
+    width: 48% !important;
+  }
+  #special-collections .special-collection .whiskey-men {
+    width: 100%;
+    height: auto;
+  }
+  #special-collections .special-collection .whiskey-men img {
+    position: relative;
+    bottom: 267px;
+    width: 79% !important;
+  }
+  #blogs-advertising .advertisings .advertising-icons {
+    margin-top: 200px !important;
+  }
+  #blogs .home-blog-logo img {
+    position: relative;
+    bottom: 100px !important;
+  }
+  #blogs .home-blog-name h1 {
+    position: relative;
+    bottom: 100px !important;
+  }
+  #blogs .home-blog-line img {
+    position: relative;
+    bottom: 100px !important;
+  }
+  #blogs .home-blogs .homes-blogs-hover {
+    position: relative;
+    bottom: 130px !important;
+  }
+  #background-img-step img {
+    width: 100%;
+  }
+  #footer .footers {
+    position: relative;
+    bottom: 401px;
+  }
+  #footer .footer {
+    text-align: center;
+    width: 100%;
+  }
+  #footer .footer .footer-description img {
+    display: none;
+  }
+  #footer-lines .footer-line {
+    position: relative;
+    bottom: 398px;
   }
 }
 header #navbars {
@@ -1097,7 +1246,7 @@ main #blogs .home-blogs .homes-blogs-hover:hover a {
 }
 main #background-img-three .back-img {
   width: 100%;
-  height: 29px;
+  height: 26px;
 }
 main #background-img-three .back-img img {
   width: 100%;

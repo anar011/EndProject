@@ -112,12 +112,6 @@ $(document).ready(function () {
 
 
 
-
-
-
-
-
-
   //login-register
 
   let login = document.querySelector(".header-icons a .fa-user")

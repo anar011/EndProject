@@ -9,6 +9,162 @@ body {
   background-color: #343333;
 }
 
+@media (max-width: 850px) {
+  #main-up .main-up-contact-descriptions .main-up-contact-description {
+    width: 100% !important;
+    height: auto !important;
+  }
+  #main-middle-up .main-middle-logo-signature .main-middle-logo img {
+    position: relative;
+    bottom: 486px;
+    width: 26% !important;
+  }
+  #main-middle-up .main-middle-logo-signature .main-middle-title-signature .main-middle-title {
+    width: 100% !important;
+    text-align: center;
+  }
+  #main-middle-up .main-middle-logo-signature .main-middle-title-signature .main-middle-title h1 {
+    position: relative;
+    bottom: 584px;
+    font-size: 20px;
+    width: 100% !important;
+  }
+  #main-middle-up .main-middle-logo-signature .main-middle-title-signature .main-middle-title img {
+    position: relative;
+    bottom: 632px;
+    padding-left: 40% !important;
+  }
+  #background-image-about .background-img-aboutt img {
+    margin-top: 12px;
+    width: 100%;
+  }
+  #main-down-contact .main-down-contact-logo {
+    width: 100% !important;
+    height: auto;
+    text-align: center;
+  }
+  #main-down-contact .main-down-contact-title {
+    width: 100% !important;
+    height: auto;
+    text-align: center;
+  }
+  #main-down-contact .main-down-contact-line {
+    width: 100% !important;
+    height: auto;
+    text-align: center;
+  }
+  #main-down-contact .down-contact-us-desc {
+    width: 100% !important;
+    height: auto !important;
+    text-align: center;
+  }
+  #main-down-contact .down-contact-us-desc p {
+    font-size: 10px;
+  }
+  #main-down-contact .down-contact-us {
+    width: 100% !important;
+    height: auto;
+    text-align: center;
+  }
+  #main-down-contact .down-contact-us a button {
+    width: 54% !important;
+  }
+  #background-img-step .background-img-step {
+    width: 100% !important;
+    height: auto;
+  }
+  #background-img-step .background-img-step img {
+    width: 100% !important;
+    margin-bottom: 5%;
+  }
+  #main-step-icons .main-step-desc {
+    width: 100%;
+    height: auto;
+  }
+  #main-step-icons .main-step-desc span {
+    color: #8e8e8e !important;
+    font-size: 10px;
+  }
+  #main-footer .main-footer-icons {
+    width: 100%;
+    height: auto;
+    margin-top: 25%;
+  }
+  #main-footer .main-footer-icon-desc {
+    width: 100%;
+    height: auto;
+  }
+  #main-footer .main-footer-icon-desc p {
+    margin-top: -26%;
+  }
+  #main-footer .footer-bibendum-img {
+    width: 100%;
+    height: auto;
+  }
+  #main-footer .footer-bibendum-img .footer-bibendum-logo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  #main-footer .footer-bibendum-img .footer-bibendum-title {
+    width: 100% !important;
+    height: auto;
+    text-align: center;
+  }
+  #main-footer .footer-bibendum-img .footer-bibendum-desc {
+    width: 100% !important;
+    height: auto;
+    text-align: center;
+  }
+  #main-footer .footer-bibendum-img .bibendum-img {
+    width: 100% !important;
+    height: auto;
+  }
+  #main-footer .footer-bibendum-img .bibendum-img img {
+    margin-left: 7% !important;
+  }
+  #footer .footers .footer {
+    text-align: center;
+  }
+}
+@media (min-width: 760px) and (max-width: 1200px) {
+  #main-up .main-up-contact-name {
+    width: 100%;
+    height: auto;
+  }
+  #main-up .main-up-contact-name h1 {
+    margin-top: 5% !important;
+  }
+  #main-middle-up .main-middle-logo-signature .main-middle-logo {
+    width: 100%;
+    height: auto;
+  }
+  #main-middle-up .main-middle-logo-signature .main-middle-logo img {
+    width: 70% !important;
+    position: relative;
+    bottom: 753px;
+  }
+  #main-middle-up .main-middle-logo-signature .main-middle-title-signature .main-middle-title {
+    width: 100%;
+    height: auto;
+  }
+  #main-middle-up .main-middle-logo-signature .main-middle-title-signature .main-middle-title h1 {
+    position: relative;
+    bottom: 753px;
+  }
+  #main-middle-up .main-middle-logo-signature .main-middle-title-signature .main-middle-title img {
+    position: relative;
+    bottom: 753px;
+  }
+  #main-footer .main-footer-icons {
+    width: 100%;
+    height: auto;
+  }
+  #main-footer .main-footer-icons img {
+    position: relative;
+    bottom: 124px;
+  }
+}
 header #navbars {
   width: 100%;
   height: auto;
@@ -97,6 +253,20 @@ header #navbars .header-icons .header-login-register .header-register a {
 header #navbars .header-icons a {
   text-decoration: none;
 }
+header #navbars .header-icons a b {
+  color: #ca8f65;
+  position: relative;
+  right: 7%;
+  bottom: 18px;
+  display: inline-block;
+  width: 18px;
+  line-height: 18px;
+  text-align: center;
+  font-size: 11px;
+  background-color: #ca8f65;
+  color: white;
+  border-radius: 100%;
+}
 header #navbars .header-icons a i {
   font-size: 138%;
   color: #ca8f65;
@@ -124,6 +294,215 @@ header #navbars .header-icons a span:last-child {
   margin-right: 10%;
   bottom: 0px;
   color: #ca8f65;
+}
+header #tablet-navbars .tablet-navbar {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 5;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-menu-icon {
+  width: 100%;
+  height: auto;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-menu-icon i {
+  font-size: 50px;
+  color: #ca8f65;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-menu {
+  width: 67%;
+  height: 74%;
+  background-color: #2a2a2a;
+  border-radius: 2%;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-menu hr {
+  color: #f1e9e4;
+  margin-left: -31px;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-menu ul {
+  list-style: none;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-menu ul li {
+  padding-top: 10px;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-menu ul li a {
+  text-decoration: none;
+  color: #ca8f65;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-menu ul li a span {
+  font-family: cursive;
+}
+header #tablet-navbars .tablet-navbar .header-login-register {
+  width: 24%;
+  height: 55%;
+  background-color: rgb(243, 243, 243);
+  position: absolute;
+}
+header #tablet-navbars .tablet-navbar .header-login-register .header-login {
+  text-align: left;
+  width: 100%;
+  height: 50%;
+}
+header #tablet-navbars .tablet-navbar .header-login-register .header-login:hover {
+  background-color: white;
+}
+header #tablet-navbars .tablet-navbar .header-login-register .header-login a {
+  text-decoration: none;
+  color: rgb(26, 26, 26);
+  margin-left: 2%;
+}
+header #tablet-navbars .tablet-navbar .header-login-register .header-register {
+  text-align: left;
+  width: 100%;
+  height: 50%;
+}
+header #tablet-navbars .tablet-navbar .header-login-register .header-register:hover {
+  background-color: white;
+}
+header #tablet-navbars .tablet-navbar .header-login-register .header-register a {
+  text-decoration: none;
+  color: rgb(26, 26, 26);
+  margin-left: 2%;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-logo {
+  width: 100%;
+  height: auto;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-icons {
+  width: 100%;
+  height: auto;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-icons a {
+  text-decoration: none;
+  color: #ca8f65;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-icons a:nth-child(3) span {
+  position: relative;
+  bottom: 12px;
+  right: 2%;
+  font-size: 25px;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-icons a:nth-child(4) span:nth-child(2) {
+  position: relative;
+  bottom: 12px;
+  right: 2%;
+  font-size: 25px;
+}
+header #tablet-navbars .tablet-navbar .tablet-navbar-icons a i {
+  width: 10%;
+  font-size: 25px;
+}
+header #tablet-navbars .tablet-navbar-search {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 5;
+  top: 7%;
+}
+header #tablet-navbars .tablet-navbar-search input {
+  margin-left: 66%;
+}
+header #phone-navbars .phone-navbars {
+  width: 100%;
+  height: auto;
+  background-color: #343333;
+  z-index: 20;
+}
+header #phone-navbars .phone-navbars .phone-navbar-logo {
+  width: 100%;
+  height: auto;
+  text-align: end;
+}
+header #phone-navbars .phone-navbars .phone-navbar-basket {
+  width: 100%;
+  height: auto;
+  text-align: end;
+}
+header #phone-navbars .phone-navbars .phone-navbar-basket a {
+  text-decoration: none;
+  color: #ca8f65;
+}
+header #phone-navbars .phone-navbars .phone-navbar-basket a span:nth-child(2) {
+  position: relative;
+  bottom: 10px;
+}
+header #phone-navbars .phone-navbars .phone-navbar-icons {
+  width: 100%;
+  height: auto;
+  text-align: end;
+}
+header #phone-navbars .phone-navbars .phone-navbar-icons i {
+  color: #ca8f65;
+  font-size: 26px;
+}
+header #phone-navbars .phone-navbars .phone-navbar-menu-icons {
+  width: 100%;
+  height: auto;
+  background-color: #2a2a2a;
+  position: absolute;
+  border-radius: 2%;
+}
+header #phone-navbars .phone-navbars .phone-navbar-menu-icons .phone-navbar-menu-icon-search {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+header #phone-navbars .phone-navbars .phone-navbar-menu-icons .phone-navbar-menu-icon-search i {
+  color: #ca8f65;
+  font-size: 20px;
+}
+header #phone-navbars .phone-navbars .phone-navbar-menu-icons .phone-navbar-menu-login-register {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+header #phone-navbars .phone-navbars .phone-navbar-menu-icons .phone-navbar-menu-login-register hr {
+  color: #ca8f65;
+}
+header #phone-navbars .phone-navbars .phone-navbar-menu-icons .phone-navbar-menu-login-register a {
+  text-decoration: none;
+}
+header #phone-navbars .phone-navbars .phone-navbar-menu-icons .phone-navbar-menu-login-register a:nth-child(2) span {
+  position: relative;
+  bottom: 10px;
+}
+header #phone-navbars .phone-navbars .phone-navbar-menu-icons .phone-navbar-menu-login-register a:nth-child(3) span:nth-child(2) {
+  position: relative;
+  bottom: 10px;
+}
+header #phone-navbars .phone-navbars .phone-navbar-menu-icons .phone-navbar-menu-login-register a i {
+  color: #ca8f65;
+}
+header #phone-navbars .phone-navbars .phone-navbar-menu-icons .phone-navbar-menu-login-register a span {
+  color: #ca8f65;
+}
+header #phone-navbars .phone-navbars .phone-navbar-menu-icons .phone-login-register {
+  width: 83%;
+  height: auto;
+  background-color: whitesmoke;
+}
+header #phone-navbars .phone-navbars .phone-navbar-menu-icons .phone-login-register a {
+  text-decoration: none;
+  color: #ca8f65;
+}
+header #phone-navbars .phone-navbars .phone-navbar-menu-icons .phone-navbar-menu {
+  width: 100%;
+  height: auto;
+}
+header #phone-navbars .phone-navbars .phone-navbar-menu-icons .phone-navbar-menu ul {
+  list-style: none;
+  margin-top: 12px;
+}
+header #phone-navbars .phone-navbars .phone-navbar-menu-icons .phone-navbar-menu ul a {
+  text-decoration: none;
+  color: #ca8f65;
+}
+header #phone-navbars .phone-navbars .phone-navbar-menu-icons .phone-navbar-menu ul a span {
+  font-family: cursive;
+}
+header #phone-navbars .phone-navbars .phone-navbar-menu-icons .phone-navbar-menu ul hr {
+  color: #ca8f65;
+  margin-left: -31px;
 }
 
 main #main-up {
@@ -324,11 +703,11 @@ main #main-down-up .main-down-time-bottle-sold .down-bottle-sold-time {
 main #main-down-up .main-down-time-bottle-sold .down-bottle-sold-time span {
   color: aliceblue;
 }
-main #background-image-about .background-img-about {
+main #background-image-about .background-img-aboutt {
   width: 100%;
   height: auto;
 }
-main #background-image-about .background-img-about img {
+main #background-image-about .background-img-aboutt img {
   width: 100%;
 }
 main #main-down-contact {
@@ -429,7 +808,11 @@ main #background-img-step {
   width: 100%;
   height: auto;
 }
-main #background-img-step img {
+main #background-img-step .background-img-step {
+  width: 100%;
+  height: auto;
+}
+main #background-img-step .background-img-step img {
   width: 100%;
   height: auto;
   opacity: 0.4;

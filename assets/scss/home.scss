@@ -29,10 +29,12 @@
 body {
     width: 100%;
     background-color: #343333;
+   
 
 }
 
 @media (max-width:850px) {
+   
 
     #background-images {
         .background-image {
@@ -68,9 +70,16 @@ body {
                             font-size: 10px;
                             margin-left: 10%;
                         }
+                        h3{
+                            position: relative !important;
+                            top: 10% !important;
+                        }
+
+
 
                         span {
                             font-size: 10px;
+                         
 
                         }
 
@@ -179,7 +188,7 @@ body {
                     width: 100% !important;
                     gap: 32px !important;
 
-                    h5 {}
+                   
                 }
 
                 .button-buy {
@@ -222,6 +231,12 @@ body {
 
           .products-whiskeys{
 
+            .whiskey{
+                img{
+                    width: 100% !important;
+                }
+            }
+
           }
 
           .product-priviews {
@@ -245,11 +260,9 @@ body {
 
     #blogs-advertising{
         .advertisings{
-            position: relative;
+            position: relative ;
             bottom: 390px;
-            .advertising-logo{
-
-            }
+          
 
             .advertising-icons{
                 position: relative;
@@ -299,15 +312,59 @@ body {
         }
 
         .home-blogs{
+            width: 100%;
+            height: auto;
             position: relative;
             bottom: 386px;
 
             .home-blog{
-                font-size: ;
+                width: auto !important;
+                height: auto;
             }
 
 
 
+        }
+
+   
+    }
+
+    #background-img-three{
+        .back-imgs{
+            position: relative !important;
+            bottom: 390px;
+       
+
+        }
+
+    }
+
+    #footer{
+        .footers{
+            position: relative;
+            bottom: 401px;
+        }
+
+        .footer{
+
+            .footer-description{
+                img{
+                    display: none;
+                }
+            }
+           
+
+
+        }
+    }
+
+    #footer-lines{
+       
+        .footer-line{
+            position: relative;
+            bottom: 398px;
+
+          
         }
     }
 
@@ -317,7 +374,242 @@ body {
 
 
 
-@media (min-width:760px) and (max-width:1200px) {}
+@media (min-width:760px) and (max-width:1200px) { 
+    #sliders {
+        .slider {
+            position: relative;
+            top: 107px;
+            .swiper {
+                .swiper-wrapper {
+                    .swiper-slide {
+                        margin-top: 20px;
+
+                        
+
+
+                        h2 {
+                            font-size: 30px;
+                            margin-top: -116px;
+                            margin-left: 5%;
+
+
+                        }
+                        
+                        h3{
+                          margin-left: 38px;
+                          position: relative !important;
+                          top: 190px !important;
+                        }
+
+                        h4 {
+                            font-size: 10px;
+                            margin-left: 10%;
+                        }
+
+                        span {
+                            font-size: 14px;
+
+                        }
+
+
+
+
+                        img {
+                            width: 30%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #background-slider{
+        .back-img{
+         margin-top: 11%;
+
+        }
+    }
+
+    #main-traditions{
+        .main-tradition{
+            margin-top: 20px;
+
+            .main-logo{
+                img{
+                    width: 5% !important;
+                }
+
+                h1{
+                    margin-top: 3%;
+                }
+
+                
+            }
+
+            .main-line{
+                margin-top:-68px;
+            }
+
+            .main-lines{
+                display: none;
+            }
+        }
+
+
+
+
+    }
+
+    
+    #special-collections {
+        .special-collection {
+            position: relative;
+            bottom: 362px;
+
+            .special-prices {
+                position: relative;
+                bottom: 78px;
+                .special-price {
+
+                    h1 {
+                        font-size: 34px;
+                    }
+
+                    h4 {
+                        font-size: 15px;
+                        
+                    }
+                }
+
+                .zeros {
+                    width: 100% !important;
+                    height: 11%;
+                    margin-top: 5%;
+                    gap: 22% !important;
+
+                }
+
+
+                .days-hours {
+                    width: 100% !important;
+                    gap: 124px !important;
+
+                    
+                }
+
+                .button-buy {
+
+                    button {
+                        width: 48% !important;
+
+                    }
+                }
+
+
+
+            }
+
+
+            .whiskey-men {
+                width: 100%;
+                height: auto;
+
+                img {
+                    position: relative;
+                    bottom: 267px;
+                    width: 79% !important;
+                }
+            }
+
+        }
+    }
+
+    #blogs-advertising{
+        .advertisings{
+            .advertising-icons{
+                margin-top: 200px !important;
+            }
+        }
+    }
+
+    #blogs{
+        .home-blog-logo{
+          img{
+            position: relative;
+            bottom: 100px !important;
+          }
+        }
+
+        .home-blog-name{
+            h1{
+                position: relative;
+                bottom: 100px !important;
+
+            }
+
+        }
+
+        .home-blog-line{
+            img{
+                position: relative;
+                bottom: 100px !important;
+
+            }
+        }
+
+        .home-blogs{
+
+            .homes-blogs-hover{
+                position: relative;
+                bottom: 130px !important;
+            }
+           
+
+        }
+
+    }
+
+
+    #background-img-step{
+        img{
+            width: 100%;
+        }
+    }
+
+
+    #footer{
+        .footers{
+            position: relative;
+            bottom: 401px;
+        }
+
+        .footer{
+            text-align: center  ;
+            width: 100%;
+
+            .footer-description{
+                img{
+                    display: none;
+                }
+            }
+
+
+        }
+    }
+
+    #footer-lines{
+       
+        .footer-line{
+            position: relative;
+            bottom: 398px;
+
+          
+        }
+    }
+
+
+}
 
 
 
@@ -708,7 +1000,7 @@ header {
                 width: 100%;
                 height: auto;
 
-                img {}
+              
             }
 
 
@@ -2020,7 +2312,7 @@ main {
                     a {
                         display: block;
 
-                        i {}
+                        
                     }
                 }
             }
@@ -2042,7 +2334,7 @@ main {
     #background-img-three {
         .back-img {
             width: 100%;
-            height: 29px;
+            height: 26px;
 
 
             img {
@@ -2124,7 +2416,7 @@ footer {
                             }
                         }
 
-                        .img-pay {}
+                        
                     }
 
 
