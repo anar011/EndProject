@@ -31,6 +31,158 @@ body {
     position: relative;
     bottom: 44px;
   }
+  #main-middle-up .main-middle-up-img {
+    width: 100% !important;
+    height: auto;
+  }
+  #main-middle-up .main-middle-up-img-logo img {
+    margin-top: 511px !important;
+    width: 7% !important;
+  }
+  #main-middle-up .main-middle-up-img-logo .responce-log {
+    position: relative;
+    bottom: 550px !important;
+    width: 15% !important;
+  }
+  #background-blogdetail-imgs .background-blogdetail-img {
+    width: 100%;
+  }
+  #background-blogdetail-imgs .background-blogdetail-img img {
+    width: 100% !important;
+    position: relative;
+    bottom: 10px !important;
+  }
+  #main-middle-bbibendum .main-middle-up-bibendum .main-middle-up-bibendum-logo {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  #main-middle-bbibendum .main-middle-up-bibendum .main-middle-up-bibendum-title {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  #main-middle-bbibendum .main-middle-up-bibendum .main-middle-up-bibendum-line {
+    width: 100% !important;
+    text-align: center !important;
+    position: relative;
+    top: 6px;
+  }
+  #main-middle-bbibendum .main-middle-up-bibendum .main-middle-up-bibendum-desc h5 {
+    font-size: 10px !important;
+  }
+  #main-middle-bbibendum .main-middle-up-bibendum .main-middle-up-bibendum-desc p {
+    font-size: 10px !important;
+  }
+  #main-middle-pharetra .main-pharetra-img {
+    margin-top: -48px !important;
+  }
+  #main-middle-pharetra .main-pharetra-title h2 {
+    font-size: 15px !important;
+  }
+  #main-middle-pharetra .middle-pharetra-img {
+    width: 100% !important;
+    height: auto;
+  }
+  #main-middle-pharetra .middle-pharetra-img img {
+    width: 100% !important;
+  }
+  #main-middle-down-urna .main-middle-down-urna-logo {
+    width: 100%;
+    height: auto;
+    text-align: center !important;
+  }
+  #main-middle-down-urna .main-middle-down-urna-title {
+    width: 100% !important;
+    height: auto;
+    text-align: center !important;
+  }
+  #main-middle-down-urna .middle-down-urna-line {
+    width: 100% !important;
+    height: auto;
+    text-align: center !important;
+  }
+  #main-footer-up {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px !important;
+    background-image: url("../img/blogdetail-back2.webp");
+  }
+  #main-footer-urna .main-footer-urna-logo {
+    width: 100% !important;
+    height: auto !important;
+    text-align: center !important;
+  }
+  #main-footer-urna .main-footer-urna-title {
+    width: 100% !important;
+    height: auto !important;
+    text-align: center !important;
+  }
+  #main-footer-urna .main-footer-line {
+    width: 100% !important;
+    height: auto !important;
+    text-align: center !important;
+  }
+  #main-footer-urna .main-footer-urna-desc {
+    width: 100% !important;
+    height: auto !important;
+    text-align: center !important;
+  }
+  #background-name-robert-img .background-name-robert-img-responce img {
+    width: 100% !important;
+    position: relative;
+    top: 6px !important;
+  }
+  #main-name-robert .img-robert {
+    width: 100% !important;
+    height: auto;
+    text-align: center;
+  }
+  #main-name-robert .img-robert img {
+    width: 20%;
+  }
+  #main-name-robert .name-robert {
+    text-align: center;
+  }
+  #main-name-robert .name-robert h4 {
+    font-size: 10px !important;
+  }
+  #main-name-robert .main-desc {
+    font-size: 7px !important;
+  }
+  #background-name-robert-img .background-name-robert-img-two img {
+    position: relative;
+    bottom: 11px !important;
+  }
+  #blogs .home-blogs .homes-blogs-hover .home-blog {
+    width: 100% !important;
+  }
+  #blogs .home-blogs .homes-blogs-hover .home-blog img {
+    width: 100% !important;
+  }
+  #background-name-robert-img .background-name-robert-img-three img {
+    width: 100% !important;
+    position: relative;
+    top: 6px !important;
+  }
+  #footer .footers .footer {
+    text-align: center;
+  }
+}
+@media (min-width: 760px) and (max-width: 1200px) {
+  #main-middle-up .main-middle-up-img {
+    width: 100% !important;
+    height: auto;
+  }
+  #main-middle-up .main-middle-up-img-logo img {
+    position: relative;
+    top: 20%;
+    width: 7% !important;
+  }
+  #main-middle-up .main-middle-up-img-logo .responce-log {
+    position: relative;
+    bottom: 936px !important;
+    width: 15% !important;
+  }
 }
 header #navbars {
   width: 100%;
