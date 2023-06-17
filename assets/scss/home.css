@@ -27,6 +27,7 @@
 
 body {
   width: 100%;
+  height: auto;
   background-color: #343333;
 }
 
@@ -65,41 +66,43 @@ body {
   #background-slider .back-img img {
     margin-top: 25px;
   }
-  #main-traditions .main-tradition {
-    width: 100%;
-  }
   #main-traditions .main-tradition .main-lineback {
-    width: 100%;
-    height: auto;
+    width: 100% !important;
   }
   #main-traditions .main-tradition .main-lineback img {
-    width: 100%;
+    width: 100% !important;
   }
   #main-traditions .main-tradition .main-logo {
-    width: 100%;
-    height: auto;
+    width: 100% !important;
   }
   #main-traditions .main-tradition .main-logo img {
-    width: 10% !important;
-  }
-  #main-traditions .main-tradition .main-logo h1 {
-    font-size: 20px;
+    width: 11% !important;
   }
   #main-traditions .main-tradition .main-line {
-    margin-top: -30%;
+    width: 100% !important;
+  }
+  #main-traditions .main-tradition .main-line img {
+    position: relative;
+    bottom: 100%;
+  }
+  #main-traditions .main-tradition .tradition-description {
+    width: 100% !important;
   }
   #main-traditions .main-tradition .tradition-description h5 {
-    font-size: 5px;
+    position: relative;
+    bottom: 80px;
+    font-size: 9px;
   }
-  #main-traditions .main-tradition .main-signature {
-    margin-top: -50px;
+  #main-traditions .main-tradition .main-signature img {
+    position: relative;
+    bottom: 86%;
   }
   #main-traditions .main-tradition .main-lines {
-    margin-top: -30px;
+    position: relative;
+    bottom: 68px;
   }
   #special-collections .special-collection {
-    position: relative;
-    bottom: 362px;
+    margin-top: -176px;
   }
   #special-collections .special-collection .special-prices .special-price h1 {
     font-size: 34px;
@@ -129,81 +132,24 @@ body {
     position: relative;
     bottom: 30px;
   }
-  #background-img1 .back-img {
+  #background-img1 .back-img img {
     position: relative;
-    bottom: 318px;
-  }
-  #main-products .main-product {
-    position: relative;
-    bottom: 328px;
-  }
-  #main-products .main-product .products-whiskeys .whiskey img {
-    width: 100% !important;
-  }
-  #main-products .main-product .product-priviews {
-    display: none;
-  }
-  #background-img-two .back-img {
-    position: relative;
-    bottom: 329px;
-    width: 100%;
+    top: 10px !important;
   }
   #background-img-two .back-img img {
-    margin-bottom: 22px;
-  }
-  #blogs-advertising .advertisings {
     position: relative;
-    bottom: 390px;
+    bottom: 26%;
   }
-  #blogs-advertising .advertisings .advertising-icons {
+  #blogs-advertising .advertisings .advertising-img {
+    width: 100% !important;
+    height: 6% !important;
+  }
+  #background-img-three .back-imgs img {
     position: relative;
-    bottom: 220px;
+    top: 30%;
   }
-  #blogs-advertising .advertisings .advertising-icons .shipping img {
-    margin-top: 2%;
-  }
-  #blogs-advertising .advertisings .advertising-icons .shipping-name h4 {
-    font-size: 12px;
-  }
-  #blogs-advertising .advertisings .advertising-icons .shipping-description span {
-    font-size: 10px;
-  }
-  #blogs .home-blog-logo {
-    position: relative;
-    bottom: 386px;
-  }
-  #blogs .home-blog-name {
-    position: relative;
-    bottom: 388px;
-  }
-  #blogs .home-blog-line {
-    position: relative;
-    bottom: 396px;
-  }
-  #blogs .home-blogs {
-    width: 100%;
-    height: auto;
-    position: relative;
-    bottom: 386px;
-  }
-  #blogs .home-blogs .home-blog {
-    width: auto !important;
-    height: auto;
-  }
-  #background-img-three .back-imgs {
-    position: relative !important;
-    bottom: 390px;
-  }
-  #footer .footers {
-    position: relative;
-    bottom: 401px;
-  }
-  #footer .footer .footer-description img {
-    display: none;
-  }
-  #footer-lines .footer-line {
-    position: relative;
-    bottom: 398px;
+  #footer .footers .footer {
+    text-align: center;
   }
 }
 @media (min-width: 760px) and (max-width: 1200px) {
@@ -238,93 +184,98 @@ body {
   #background-slider .back-img {
     margin-top: 11%;
   }
-  #main-traditions .main-tradition {
-    margin-top: 20px;
+  #main-traditions .main-tradition .main-lineback {
+    width: 100% !important;
+  }
+  #main-traditions .main-tradition .main-lineback img {
+    width: 100% !important;
+  }
+  #main-traditions .main-tradition .main-logo {
+    width: 100% !important;
   }
   #main-traditions .main-tradition .main-logo img {
-    width: 5% !important;
-  }
-  #main-traditions .main-tradition .main-logo h1 {
-    margin-top: 3%;
+    width: 11% !important;
   }
   #main-traditions .main-tradition .main-line {
-    margin-top: -68px;
+    width: 100% !important;
+  }
+  #main-traditions .main-tradition .main-line img {
+    position: relative;
+    bottom: 57% !important;
+  }
+  #main-traditions .main-tradition .tradition-description {
+    width: 100% !important;
+  }
+  #main-traditions .main-tradition .tradition-description h5 {
+    position: relative;
+    bottom: 50px;
+    font-size: 9px;
+  }
+  #main-traditions .main-tradition .main-signature img {
+    position: relative;
+    bottom: 86%;
   }
   #main-traditions .main-tradition .main-lines {
-    display: none;
+    position: relative;
+    bottom: 68px;
   }
   #special-collections .special-collection {
-    position: relative;
-    bottom: 362px;
-  }
-  #special-collections .special-collection .special-prices {
-    position: relative;
-    bottom: 78px;
+    margin-top: -176px;
   }
   #special-collections .special-collection .special-prices .special-price h1 {
     font-size: 34px;
   }
   #special-collections .special-collection .special-prices .special-price h4 {
     font-size: 15px;
+    margin-bottom: 10px;
   }
   #special-collections .special-collection .special-prices .zeros {
     width: 100% !important;
     height: 11%;
     margin-top: 5%;
-    gap: 22% !important;
+    gap: 20% !important;
   }
   #special-collections .special-collection .special-prices .days-hours {
     width: 100% !important;
-    gap: 124px !important;
+    gap: 32px !important;
   }
   #special-collections .special-collection .special-prices .button-buy button {
     width: 48% !important;
+    margin-right: 52%;
+    position: relative;
+    top: 20px;
   }
   #special-collections .special-collection .whiskey-men {
     width: 100%;
     height: auto;
   }
   #special-collections .special-collection .whiskey-men img {
+    width: 80% !important;
     position: relative;
-    bottom: 267px;
-    width: 79% !important;
+    bottom: 274px;
+  }
+  #background-img1 .back-img img {
+    position: relative;
+    top: 10px !important;
+  }
+  #background-img-two .back-img img {
+    position: relative;
+    bottom: 26%;
+  }
+  #blogs-advertising .advertisings .advertising-img {
+    width: 100% !important;
+    height: 6% !important;
   }
   #blogs-advertising .advertisings .advertising-icons {
-    margin-top: 200px !important;
+    margin-top: 156px !important;
   }
-  #blogs .home-blog-logo img {
+  #blogs .home-blogs .homes-blogs-hover .home-blog {
+    width: auto !important;
+    height: auto;
+  }
+  #background-img-three .back-imgs img {
     position: relative;
-    bottom: 100px !important;
-  }
-  #blogs .home-blog-name h1 {
-    position: relative;
-    bottom: 100px !important;
-  }
-  #blogs .home-blog-line img {
-    position: relative;
-    bottom: 100px !important;
-  }
-  #blogs .home-blogs .homes-blogs-hover {
-    position: relative;
-    bottom: 130px !important;
-  }
-  #background-img-step img {
-    width: 100%;
-  }
-  #footer .footers {
-    position: relative;
-    bottom: 401px;
-  }
-  #footer .footer {
-    text-align: center;
-    width: 100%;
-  }
-  #footer .footer .footer-description img {
-    display: none;
-  }
-  #footer-lines .footer-line {
-    position: relative;
-    bottom: 398px;
+    top: 30%;
   }
 }
 header #navbars {

@@ -7,7 +7,7 @@
 
 body {
     width: 100%;
-    height: 5000px;
+    height: auto;
     background-color: #343333;
 }
 
@@ -309,28 +309,43 @@ body {
 @media (min-width:760px) and (max-width:1200px) {
     #main-middle-up{
         .main-middle-up-img{
+
             width: 100% !important;
             height: auto;
-           
-        
+                  
         }
 
         .main-middle-up-img-logo{
-           img{
+        
             position: relative;
-            top:20% ; 
-            width: 7% !important;
-           }
+            bottom: -6% !important;
 
-           .responce-log{
-            position: relative;
-            bottom: 936px !important;
-            width: 15% !important;
-           }
+          
+        
+
+        
+           
 
 
         }
     }
+
+    #main-name-robert{
+        .img-robert{
+            width: 100% !important;
+            height: auto;
+            text-align: left !important;
+
+            img{
+                width: 70% !important;
+              
+            }
+        }
+
+
+    }
+
+
 
 }
 
