@@ -212,6 +212,28 @@ main #main-product-showing .products-category-name .categories:hover span {
 main #main-product-showing .products-category-name .categories:hover p {
   color: white;
 }
+main #main-product-showing .products-capacity-name {
+  width: 100%;
+  height: auto;
+}
+main #main-product-showing .products-capacity-name span {
+  color: #ca8f65;
+  cursor: pointer;
+}
+main #main-product-showing .products-capacity-name p {
+  color: #ca8f65;
+  cursor: pointer;
+}
+main #main-product-showing .products-capacity-name .categories {
+  width: 100%;
+  height: auto;
+}
+main #main-product-showing .products-capacity-name .categories:hover span {
+  color: white;
+}
+main #main-product-showing .products-capacity-name .categories:hover p {
+  color: white;
+}
 main #main-product-showing .products-filtered-name {
   width: 100%;
   height: auto;

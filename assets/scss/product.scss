@@ -379,6 +379,48 @@ main {
 
 
         }
+        .products-capacity-name {
+            width: 100%;
+            height: auto;
+            // border: 2px solid #534e4e;
+
+
+
+            span {
+                color: #ca8f65;
+                cursor: pointer;
+            }
+
+
+            p {
+                color: #ca8f65;
+                cursor: pointer;
+
+            }
+
+
+            .categories{
+
+                width: 100%;
+                height: auto;
+
+                &:hover{
+                    span{
+                        color: white;
+
+                    }
+                    p{
+                        color: white;
+                    }
+                }
+            }
+            
+          
+
+
+
+
+        }
 
         .products-filtered-name {
             width: 100%;
