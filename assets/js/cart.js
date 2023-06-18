@@ -220,9 +220,6 @@ $(document).ready(function () {
     }
     
     showGrandTotal();
-    
-    
-    
 
 
 

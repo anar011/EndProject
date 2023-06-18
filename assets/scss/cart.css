@@ -177,8 +177,11 @@ main #background-img {
 main #background-img img {
   width: 100%;
 }
-main #basket table {
+main #basket .table {
   color: white;
+}
+main #basket .table th {
+  color: #ebebeb;
 }
 main #basket img {
   width: 100px;
@@ -210,6 +213,7 @@ main #basket input {
   background-color: whitesmoke;
 }
 main #basket .delete {
+  color: white;
   font-size: 24px;
   margin-left: 14%;
   cursor: pointer;
@@ -218,16 +222,20 @@ main #basket .buttons button {
   width: 85%;
   height: 50px;
   background-color: #ca8f65;
-  color: black;
+  color: white;
   border: none;
   border-radius: 5px;
 }
+main #basket .buttons button:hover {
+  color: #343333;
+}
 main #basket .buttons .grand-total {
+  color: white;
   position: relative;
   left: 45%;
-  color: white;
 }
 main #basket .buttons .button-right button {
+  color: white;
   margin-left: 194%;
 }
 main #main .main-up {
@@ -237,23 +245,29 @@ main #main .main-up {
   padding-top: 7%;
 }
 main #main .main-up .buttons {
-  width: 40%;
-  height: 40%;
+  width: 400px;
+  height: 26%;
   text-align: center;
   border-radius: 10px;
   border: none;
-  background-color: #343333;
+  background-color: #4e4949;
 }
-main #main .main-up .buttons h2 {
-  color: #ca8f65;
+main #main .main-up .buttons span {
+  color: white;
 }
-main #main .main-up a button {
-  width: 10%;
-  height: 40px;
+main #main .main-up .buttons:hover {
   background-color: #ca8f65;
-  color: black;
+}
+main #main .main-up button {
+  width: 190px;
+  height: 40px;
+  background-color: #4e4949;
+  color: white;
   border: none;
   border-radius: 5px;
+}
+main #main .main-up button:hover {
+  background-color: #ca8f65;
 }
 main #background-img {
   width: 100;
