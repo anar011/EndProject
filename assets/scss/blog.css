@@ -55,7 +55,7 @@ body {
     width: 100%;
     height: auto;
     position: relative;
-    top: 76px;
+    top: 76px !important;
   }
   #footer .footers .footer {
     text-align: center;
@@ -102,7 +102,7 @@ body {
     width: 100% !important;
     height: auto;
     position: relative;
-    top: 28px !important;
+    top: 29px !important;
   }
   #background-img .background-responsive-img img {
     width: 100% !important;

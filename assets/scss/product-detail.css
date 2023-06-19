@@ -1022,6 +1022,43 @@ main #main-products .main-product .products-whiskeys .whiskeys .whiskey-name a {
 main #main-products .main-product .products-whiskeys .whiskeys .whiskey-name span {
   color: #ca8f65;
 }
+main #main-comment .comments {
+  width: 100%;
+  height: auto;
+}
+main #main-comment .comments .comments-title {
+  width: 100%;
+  height: auto;
+}
+main #main-comment .comments .comments-title h4 {
+  color: #ca8f65;
+}
+main #main-comment .comments .comments-name input {
+  width: 100%;
+  height: 60px;
+}
+main #main-comment .comments .comments-name button {
+  width: 10%;
+  background-color: #ca8f65;
+  height: 40px;
+  border: none;
+  color: white;
+}
+main #main-comment .comments .comments-name button:hover {
+  background-color: rgb(107, 96, 96);
+  transition: 2s;
+}
+main #main-comment .comments .comments-name .form-floating {
+  border: #ca8f65;
+}
+main #background-img-three .back-imgs {
+  width: 100%;
+  height: auto;
+}
+main #background-img-three .back-imgs img {
+  width: 100%;
+  height: auto;
+}
 
 footer #footer .footers {
   width: 100%;

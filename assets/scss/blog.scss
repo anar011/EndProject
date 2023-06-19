@@ -80,7 +80,7 @@ body {
                 width: 100%;
                 height: auto;
                 position: relative;
-                top: 76px;
+                top: 76px !important;
             }
         }
     }
@@ -162,7 +162,7 @@ body {
             width: 100% !important;
             height: auto;
             position: relative;
-            top: 28px !important;
+            top: 29px !important;
 
             img {
                 width: 100% !important;

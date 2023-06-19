@@ -12,6 +12,27 @@ body {
 }
 
 
+@media (max-width:850px){
+
+
+
+
+    #footer {
+        .footers {
+
+            .footer {
+                text-align: center;
+            }
+
+        }
+
+    }
+
+
+}
+
+
+
 header {
     #navbars {
         width: 100%;
@@ -804,7 +825,7 @@ main {
             padding: 14.5px;
             width: 100%;
             margin: 2rem 0;
-            color: var(--color);
+            color: white;
             outline: none;
             background-color: #9191911f;
             border: none;

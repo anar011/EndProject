@@ -10,6 +10,11 @@ body {
   background-color: #343333;
 }
 
+@media (max-width: 850px) {
+  #footer .footers .footer {
+    text-align: center;
+  }
+}
 header #navbars {
   width: 100%;
   height: auto;
@@ -432,7 +437,7 @@ main #main .login-container form input {
   padding: 14.5px;
   width: 100%;
   margin: 2rem 0;
-  color: var(--color);
+  color: whitesmoke;
   outline: none;
   background-color: rgba(145, 145, 145, 0.1215686275);
   border: none;

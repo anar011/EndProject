@@ -44,209 +44,80 @@ $(document).ready(function () {
 
 
 
-  //Basket-Cart
-
-
-  let tableBody = document.querySelector("tbody");
-  let products = JSON.parse(localStorage.getItem("wishlist"));
-
-
-  getWishlistDatas();
-
-  function getWishlistDatas() {
-      if (products != null) {
-          for (const product of products) {
-              let nativePrice = product.price / product.count
-              tableBody.innerHTML += `
-          <tr data-id ="${product.id}">
-              <td><img src="${product.img}" alt=""> </td>
-              <td>${product.name}</td>
-              <td>${nativePrice}.00</td>
-              <td>
-               <div class="number">
-                  <span class="minus">-</span>
-                  <input type="text" value="${product.count}"/>
-                  <span class="plus">+</span>
-               </div>
-              </td>
-                  <td>${product.price}</td>
-                  <td><i class="fa-solid fa-xmark delete"></i></td>
-                 
-        
-          </tr>   `
-
-
-
-          }
-
-
-          getWishlistCount(products);
-
-          document.querySelector("#main .main-up").classList.add("d-none");
-
-
-
-
-
-
-      } else {
-
-          showAlert();
-
-      }
-
-  }
-
-  function showAlert(arr) {
-      document.querySelector("table").classList.add("d-none");
-      document.querySelector("#main .main-up").classList.remove("d-none");
-
-
-  }
-
-
-
-
-  function getWishlistCount(arr) {
-      let sum = 0;
-
-      for (const item of arr) {
-          sum += item.count;
-      }
-
-      document.querySelector("#navbar-middle .icon-delete .iconss .zeroo span").innerText = sum;
-
-  }
-
-  getWishlistCount(products)
-
-
-
-  function deleteProduct(id) {
-      products = products.filter(m => m.id != id);
-      localStorage.setItem("wishlist", JSON.stringify(products))
-  }
-
-  let deleteIcons = document.querySelectorAll(".delete")
-
-  deleteIcons.forEach(icon => {
-      icon.addEventListener("click", function () {
-          let id = parseInt(this.parentNode.parentNode.getAttribute("data-id"));
-          deleteProduct(id);
-          this.parentNode.parentNode.remove();
-          if (products.length == 0) {
-              localStorage.removeItem("wishlist")
-              showAlert();
-
-          }
-
-          showGrandTotal();
-          getWishlistCount(products);
-
-
-
-      })
-  })
-
-  function plus() {
-      let plusIcons = document.querySelectorAll(".plus");
-      for (const plusIcon of plusIcons) {
-          plusIcon.addEventListener("click", function () {
-              {
-                  for (const product of products) {
-                      if (product.id == this.parentNode.parentNode.parentNode.getAttribute("data-id")) {
-                          let nativePrice = product.price / product.count
-                          product.count++;
-                          this.previousElementSibling.value++;
-                          product.price = nativePrice * product.count
-                          this.parentNode.parentNode.nextElementSibling.innerText = product.price
-                          localStorage.setItem("wishlist", JSON.stringify(products))
-
-                      }
-                  }
-
-                  showGrandTotal();
-
-              }
-          })
-      }
-  }
-
-  plus()
-
-
-
-  function showGrandTotal() {
-      if (products != null) {
-          let title = document.querySelector(".total-title");
-          title.classList.remove("d-none");
-          title.nextElementSibling.classList.remove("d-none");
-
-          let sum = 0;
-          for (const item of products) {
-              sum += parseInt(item.price);
-          }
-
-          title.nextElementSibling.innerText = "$" + sum;
-      }
-
-  }
-
-  showGrandTotal();
-
-
-
-
-
-
-
-
-  if (products != null) {
-      for (const product of products) {
-          let nativePrice = product.price / product.count
-          tableBody.innerHTML += `
-              <tr data-id ="${product.id}">
-                  <td><img src="${product.img}" alt=""> </td>
-                  <td>${product.name}</td>
-                  <td>${nativePrice}.00</td>
-                  <td>
-                   <div class="number">
-                      <span class="minus">-</span>
-                      <input type="text" value="${product.count}"/>
-                      <span class="plus">+</span>
-                   </div>
-                  </td>
-                      <td>${product.price}</td>
-                      <td><i class="fa-solid fa-xmark delete"></i></td>
-                     
-            
-              </tr>   `
-
-
-
-      }
-
-
-      getWishlistCount(products);
-
-      document.querySelector("#main .main-up").classList.add("d-none");
-
-
-
-
-
-
-  } else {
-
-      showAlert();
-
-  }
-
-
-
 
   //error
   
+
+
+  //tablet-navbar
+
+
+  //bars
+  let bars = document.querySelector(".tablet-navbar .tablet-navbar-menu-icon i")
+  bars.addEventListener("click", function (e) {
+    e.preventDefault()
+    document.querySelector(".tablet-navbar .tablet-navbar-menu").classList.toggle("d-none")
+  });
+
+
+  //search
+  let searchTablet = document.querySelector(".tablet-navbar .tablet-navbar-icons").children[0]
+  searchTablet.addEventListener("click", function (e) {
+    e.preventDefault()
+    document.querySelector(".tablet-navbar-search").classList.toggle("d-none")
+  });
+
+
+  //login-register
+
+  let register = document.querySelector(".tablet-navbar .tablet-navbar-icons").children[1]
+  register.addEventListener("click", function (e) {
+    e.preventDefault()
+    document.querySelector(".tablet-navbar .tablet-navbar-icons .header-login-register").classList.toggle("d-none")
+  });
+
+
+  //tablet-navbar
+
+
+
+
+  //phone-navbar
+
+
+  let phoneBars = document.querySelector(".phone-navbars .phone-navbar-icons i")
+  phoneBars.addEventListener("click", function (e) {
+    e.preventDefault()
+    document.querySelector(".phone-navbars .phone-navbar-menu-icons").classList.toggle("d-none")
+  });
+
+
+
+  //search
+  let searchPhone = document.querySelector(".phone-navbars .phone-navbar-menu-icons .phone-navbar-menu-icon-search i")
+  searchPhone.addEventListener("click", function (e) {
+    e.preventDefault()
+    document.querySelector(".phone-navbars .phone-navbar-menu-icons .tablet-navbar-search").classList.toggle("d-none")
+  });
+
+
+
+  // login-register
+
+  let loginPhone = document.querySelector(".phone-navbars .phone-navbar-menu-icons .phone-navbar-menu-login-register").children[0]
+  loginPhone.addEventListener("click", function (e) {
+    e.preventDefault()
+    document.querySelector(".phone-navbars .phone-navbar-menu-icons .phone-login-register").classList.toggle("d-none")
+  });
+
+
+
+  
+
+
+
+
+
 
 
 
