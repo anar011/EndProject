@@ -146,7 +146,7 @@ header #navbars .header-icons a span:last-child {
   color: #ca8f65;
 }
 header #tablet-navbars .tablet-navbar {
-  width: 100%;
+  width: 93%;
   height: auto;
   position: absolute;
   z-index: 5;
@@ -398,6 +398,9 @@ main #main-up .main-up-contact-titles .main-up-contact-title hr {
 }
 main #main-up .main-up-contact-titles .main-up-contact-title span {
   color: #7a716a;
+}
+main #main {
+  width: 100% !important;
 }
 main #main html {
   scroll-behavior: smooth;

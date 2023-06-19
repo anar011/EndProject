@@ -70,6 +70,9 @@ body {
     width: 100% !important;
     height: auto !important;
   }
+  #main-comment .comments .comments-name button {
+    width: 30% !important;
+  }
   #blogs-advertising .advertisings .advertising-icons .shipping {
     margin-top: 30px !important;
   }
@@ -268,7 +271,7 @@ header #navbars .header-icons a span:last-child {
   color: #ca8f65;
 }
 header #tablet-navbars .tablet-navbar {
-  width: 100%;
+  width: 93%;
   height: auto;
   position: absolute;
   z-index: 5;
@@ -1034,8 +1037,12 @@ main #main-comment .comments .comments-title h4 {
   color: #ca8f65;
 }
 main #main-comment .comments .comments-name input {
+  color: white;
   width: 100%;
   height: 60px;
+  outline: none;
+  padding-left: 15px;
+  background-color: #303030;
 }
 main #main-comment .comments .comments-name button {
   width: 10%;
@@ -1048,8 +1055,16 @@ main #main-comment .comments .comments-name button:hover {
   background-color: rgb(107, 96, 96);
   transition: 2s;
 }
-main #main-comment .comments .comments-name .form-floating {
-  border: #ca8f65;
+main #main-comment .comments .message-area {
+  color: white;
+}
+main #main-comment .comments .message-area textarea {
+  width: 100%;
+  outline: none;
+  padding-left: 15px;
+  padding-top: 10px;
+  background-color: #303030;
+  color: white;
 }
 main #background-img-three .back-imgs {
   width: 100%;

@@ -280,6 +280,25 @@ body {
 
     }
 
+    #blogs{
+        .home-blogs{
+            width: 100% !important;
+            
+            .homes-blogs-hover{
+                width: 100% !important;
+                .home-blog{
+
+                    width: 100% !important;
+
+                }
+
+            }
+          
+        }
+
+        
+    }
+
    
     #background-img-three {
         .back-imgs {
@@ -310,6 +329,9 @@ body {
 
 
 @media (min-width:760px) and (max-width:1200px) { 
+
+
+
     #sliders {
         .slider {
             position: relative;
@@ -552,9 +574,16 @@ body {
     #blogs{
         .home-blogs{
             .homes-blogs-hover{
+                width: 100% !important;
+
                .home-blog{
-                width: auto!important;
+                width: 100% !important;
                 height: auto;
+
+                img{
+                    width: 100% !important;
+                    height: auto;
+                }
                }
             }
         }
@@ -843,7 +872,7 @@ header {
 
 
         .tablet-navbar {
-            width: 100%;
+            width: 93%;
             height: auto;
             position: absolute;
             z-index: 5;

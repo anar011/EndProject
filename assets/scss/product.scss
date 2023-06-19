@@ -81,6 +81,15 @@ body {
         }
     }
 
+    #main-product-showing{
+        .products-category-name{
+            padding-left: 41% !important;
+
+            
+           
+        }
+    }
+
 
 
 
@@ -101,8 +110,16 @@ body {
 
 @media (min-width:760px) and (max-width:1200px){
     
-}
+    #main-product-showing{
+        .products-category-name{
+            padding-left: 0% !important;
 
+            
+           
+        }
+    }
+
+}
 
 
 header {
@@ -111,10 +128,6 @@ header {
         height: auto;
         position: absolute;
         z-index: 5;
-
-        @media screen and (max-width:821px) {}
-
-        @media screen and (max-width:391px) {}
 
 
 
@@ -372,7 +385,7 @@ header {
 
 
         .tablet-navbar {
-            width: 100%;
+            width: 93%;
             height: auto;
             position: absolute;
             z-index: 5;
@@ -492,7 +505,7 @@ header {
                 width: 100%;
                 height: auto;
 
-              
+
             }
 
 
@@ -778,7 +791,6 @@ header {
     }
 }
 
-
 main {
     #main-up {
         background-color: #2a2a2a;
@@ -893,6 +905,7 @@ main {
         .products-capacity-name {
             width: 100%;
             height: auto;
+            padding-left: 42%;
             // border: 2px solid #534e4e;
 
 

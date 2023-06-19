@@ -144,6 +144,15 @@ body {
     width: 100% !important;
     height: 6% !important;
   }
+  #blogs .home-blogs {
+    width: 100% !important;
+  }
+  #blogs .home-blogs .homes-blogs-hover {
+    width: 100% !important;
+  }
+  #blogs .home-blogs .homes-blogs-hover .home-blog {
+    width: 100% !important;
+  }
   #background-img-three .back-imgs img {
     position: relative;
     top: 30%;
@@ -269,8 +278,15 @@ body {
   #blogs-advertising .advertisings .advertising-icons {
     margin-top: 156px !important;
   }
+  #blogs .home-blogs .homes-blogs-hover {
+    width: 100% !important;
+  }
   #blogs .home-blogs .homes-blogs-hover .home-blog {
-    width: auto !important;
+    width: 100% !important;
+    height: auto;
+  }
+  #blogs .home-blogs .homes-blogs-hover .home-blog img {
+    width: 100% !important;
     height: auto;
   }
   #background-img-three .back-imgs img {
@@ -409,7 +425,7 @@ header #navbars .header-icons a span:last-child {
   color: #ca8f65;
 }
 header #tablet-navbars .tablet-navbar {
-  width: 100%;
+  width: 93%;
   height: auto;
   position: absolute;
   z-index: 5;
