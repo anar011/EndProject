@@ -13,7 +13,43 @@ body {
 
 
 @media (max-width:850px){
+    #main-down{
+        .main-down{
+            .main-down-desc{
+                
+                width: 100% !important;
+                text-align: center;
+                margin-left: 0 !important;
+                
+            }
+
+        }
+
+
+    }
+
+    #background-img-three{
+        .back-imgs{
+            width: 100%;
+
+            position: relative;
+            top: px !important;
+        }
+
+    }
+
     
+    #footer {
+        .footers {
+
+            .footer {
+                text-align: center;
+            }
+
+        }
+
+    }
+
 }
 
 

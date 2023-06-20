@@ -160,7 +160,7 @@ header #navbars .header-icons a span:last-child {
   color: #ca8f65;
 }
 header #tablet-navbars .tablet-navbar {
-  width: 100%;
+  width: 93%;
   height: auto;
   position: absolute;
   z-index: 5;

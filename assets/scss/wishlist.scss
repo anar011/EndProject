@@ -73,20 +73,12 @@ body {
 
 
 
-
-
-
-
 header {
     #navbars {
         width: 100%;
         height: auto;
         position: absolute;
         z-index: 5;
-
-        @media screen and (max-width:821px) {}
-
-        @media screen and (max-width:391px) {}
 
 
 
@@ -344,7 +336,7 @@ header {
 
 
         .tablet-navbar {
-            width: 100%;
+            width: 93%;
             height: auto;
             position: absolute;
             z-index: 5;
@@ -464,7 +456,7 @@ header {
                 width: 100%;
                 height: auto;
 
-              
+
             }
 
 
@@ -748,9 +740,8 @@ header {
 
         }
     }
-
-
 }
+
 main{
     #main-up {
         background-color: #2a2a2a;
@@ -1053,7 +1044,7 @@ footer {
                             }
                         }
 
-                        .img-pay {}
+                       
                     }
 
 
