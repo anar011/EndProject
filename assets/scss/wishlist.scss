@@ -26,6 +26,12 @@ body {
         }
     }
 
+    #wishlist-products{
+        .wishlist-products{
+            overflow-x: scroll;
+        }
+    }
+
     #background-img{
         .background-img-two{
             img{
@@ -825,107 +831,129 @@ main{
 
     }
 
-    #wishlist {
-
-
-        table{
-            color: white;
-        }
-
-        img {
-            width: 100px;
-            height: 100px;
-            list-style: none;
-
-        }
-
-
-      
-        .number {
-            margin: 0;
-        }
-
-        .minus,
-        .plus {
-            cursor: pointer;
-            width: 20px;
-            height: 55px;
-            font-size: 35px;
-            display: inline-block;
-            vertical-align: middle;
-            text-align: center;
-            
-
-
-        }
-
-        input {
-            height: 38px;
-            width: 110px;
-            text-align: center;
-            font-size: 17px;
-            border: 1px solid #ddd;
+    #wishlist-products {
+        .wishlist-products {
+            margin-top: 53px;
+            box-shadow: 2px 2px 6px 0 white, 0 1px 1px 0 transparent, 0 1px 3px 0 rgba(116, 114, 114, 0.12) !important;
             border-radius: 4px;
-            display: inline-block;
-            vertical-align: middle;
-            background-color: whitesmoke;
-            
            
-
-
-        }
-
-        .delete{
-            font-size: 24px;
-            
-            margin-left: 14%;
-            cursor: pointer;
-          
-        }
-
-       
-        .buttons{
-            button{
-                width: 85%;
-                height: 50px;
-                background-color: #ca8f65;
-                color: black;
-                border: none;
-                border-radius: 5px;
-
-              
-
-            }
-
-            .grand-total{
-                position: relative;
-                left: 45%;
-                color: white;
-                
-           
-            }
-
-          
-
-            .button-right{
-                button{
-                    margin-left: 194%;
-                   
-                   
-                    
-                  
+    
+            .table {
+                tr {
+                    display: flex;
+                    justify-content: center;
+    
+    
+    
+    
+    
+    
+                    th {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-bottom-width: 0px;
+                        width: 314px !important;
+                        text-align: center;
+                        height: 60px;
+                        padding: 0 24px;
+                        color: white;
+                        font-size: 14px;
+                        border-bottom-width: 1px;
+                        border-bottom-style: solid;
+                        border-color: white;
+    
+                        button {
+                            background-color:#ca8f65;
+                            border: none;
+                            border-radius: 0;
+                            color: rgb(35, 34, 34);
+    
+                            &:hover {
+                                background-color:whitesmoke;
+                                transition: 0.5s;
+                            }
+                        }
+                    }
                 }
+    
+                tbody {
+                    tr {
+                        display: flex;
+                        justify-content: center;
+                    }
+    
+                    td {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        width: 314px !important;
+                        height: 103px;
+                        color: white;
+                        font-size: 1rem;
+                        text-decoration: none;
+                        font-weight: 500;
+    
+                        &:nth-child(2) {
+                            width: 300px;
+                        }
+    
+                        &:nth-child(3) {
+    
+                            font-size: 21px;
+                            font-weight: 500;
+    
+                        }
+    
+    
+                    
+                        img {
+                            padding-left: 47px;
+                            height: 101px;
+                        }
+    
+                        .btn {
+                            margin-top: 13px;
+                            text-align: center;
+                            cursor: pointer;
+                            width: 181px;
+                            height: 49px;
+                            background-color:#ca8f65;
+                            border-radius: 0;
+                            border: none;
+                            margin-left: -445px;
+    
+                            &:hover {
+                                background-color:whitesmoke;
+                                transition: 0.5s;
+                            }
+                        }
+    
+                        a {
+                            color: rgb(35, 34, 34);
+                            font-size: 1rem;
+                            text-decoration: none;
+                            font-weight: 500;
+                        }
+                    }
+    
+    
+    
+    
+    
+                }
+    
+    
             }
-
         }
-        
-
-
-
-
-
+    
+    
+    
+    
     }
-
+    
+    
     #main {
         .main-up {
             display: block;
@@ -961,6 +989,11 @@ main{
                     color: black;
                     border: none;
                     border-radius: 5px;
+
+                    &:hover{
+                        background-color: white;
+                        transition: 1s;
+                    }
 
                  
     
