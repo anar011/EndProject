@@ -1351,6 +1351,7 @@ main {
 
 
             .swiper-slide {
+                width: 100%;
 
                 h2 {
                     color: white;
@@ -1385,70 +1386,91 @@ main {
                 }
 
 
-
-
-
-
-
-
-
-
-
-                &:first-child {
-                    img {
-
-                        width: 45%;
-                        height: 10%;
-                        position: relative;
-                        float: right;
-                        bottom: 20px;
-                        right: 3%;
-                    }
-
-
+                img{
+                    width: 32%;            
+                    position: relative;
+                    float: right;
+                    bottom: 50px;
+                    right: 7%;
 
                 }
 
 
 
 
-                &:nth-child(2) {
-                    img {
-                        width: 43%;
-                        height: 10%;
-                        position: relative;
-                        float: right;
-                        bottom: 10px;
-                        right: 8%;
-                    }
 
 
-                }
 
-                &:nth-child(3) {
-                    img {
-                        width: 40%;
-                        height: 10%;
-                        position: relative;
-                        float: right;
-                        right: 6%;
-                    }
 
-                }
 
-                &:last-child {
-                    img {
 
-                        width: 30%;
-                        height: 10%;
-                        position: relative;
-                        float: right;
-                        bottom: 50px;
-                        right: 7%;
 
-                    }
+                // &:first-child {
+                //     img {
 
-                }
+                //         width: 45%;
+                //         height: 10%;
+                //         position: relative;
+                //         float: right;
+                //         bottom: 20px;
+                //         right: 3%;
+                //     }
+
+
+
+                // }
+
+
+
+
+                // &:nth-child(2) {
+                //     img {
+                //         width: 43%;
+                //         height: 10%;
+                //         position: relative;
+                //         float: right;
+                //         bottom: 10px;
+                //         right: 8%;
+                //     }
+
+
+                // }
+
+                // &:nth-child(3) {
+                //     img {
+                //         width: 40%;
+                //         height: 10%;
+                //         position: relative;
+                //         float: right;
+                //         right: 6%;
+                //     }
+
+                // }
+
+                // &:nth-child(4) {
+                //     img {
+
+                //         width: 30%;
+                //         height: 10%;
+                //         position: relative;
+                //         float: right;
+                //         bottom: 50px;
+                //         right: 7%;
+
+                //     }
+
+                // }
+
+
+                // img{
+                //     width: 30%;
+                //     height: 10%;
+                //     position: relative;
+                //     float: right;
+                //     bottom: 50px;
+                //     right: 7%;
+
+                // }
 
             }
 
